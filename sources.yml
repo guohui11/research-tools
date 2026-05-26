@@ -1,0 +1,36 @@
+# Research skill sources.
+#
+# Add a new skill repository here, then run:
+#   python scripts/sync_research_skills.py
+#   python scripts/generate_skill_catalog.py
+
+sources:
+  - slug: scientific-agent-skills
+    title: scientific-agent-skills
+    category_slug: scientific-research
+    category_title: 通用科学研究 Skills
+    repo_url: https://github.com/K-Dense-AI/scientific-agent-skills.git
+    upstream: K-Dense-AI/scientific-agent-skills
+    description: 面向科学计算和实验研究的通用技能集合，覆盖生物信息学、药物发现、临床研究、医学影像和材料科学等方向。
+    recommended_for: 需要把科研任务拆成可复用工具流程的研究生，尤其适合交叉学科和 AI for Science 项目。
+    usage_focus: 把具体任务描述清楚，让 agent 选择对应技能目录中的方法、依赖和执行步骤。
+
+  - slug: ai-research-skills
+    title: AI-Research-SKILLs
+    category_slug: ai-research-lifecycle
+    category_title: AI 研究全流程 Skills
+    repo_url: https://github.com/Orchestra-Research/AI-research-SKILLs.git
+    upstream: Orchestra-Research/AI-research-SKILLs
+    description: 围绕 AI 研究生命周期构建的技能集合，覆盖文献综述、想法生成、实验设计、训练评估、结果分析和论文写作。
+    recommended_for: 做机器学习、深度学习、LLM、Agent 或数据科学课题的研究生。
+    usage_focus: 按研究阶段选择技能：先综述与选题，再实验与复现，最后分析、绘图和写作。
+
+  - slug: openclaw-medical-skills
+    title: OpenClaw-Medical-Skills
+    category_slug: biomedical-research
+    category_title: 生物医学研究 Skills
+    repo_url: https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills.git
+    upstream: FreedomIntelligence/OpenClaw-Medical-Skills
+    description: 面向医学 AI 和生物医学研究的技能集合，覆盖临床报告、基因组学、药物发现、生物信息学、结构生物学和医学数据库。
+    recommended_for: 医学、生信、药物发现、临床 NLP、组学分析方向的研究生。
+    usage_focus: 先确认数据合规和任务边界，再按疾病、数据类型或实验阶段选择技能。

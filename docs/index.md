@@ -1,6 +1,6 @@
 # Research Skills Index
 
-更新时间：2026-05-26
+更新时间：2026-05-27
 
 这些内容由 `scripts/sync_research_skills.py` 生成，来源于 Awesome Auto Research 中的 Research Skills & Plugin Collections。
 

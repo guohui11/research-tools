@@ -20,6 +20,9 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
+GITHUB_REPO_URL = "https://github.com/guohui11/research-tools"
+
+
 @dataclass(frozen=True)
 class Collection:
     slug: str
@@ -77,6 +80,56 @@ COLLECTIONS: list[Collection] = [
         usage_focus="先确认数据合规和任务边界，再按疾病、数据类型或实验阶段选择技能。",
     ),
 ]
+
+
+def parse_sources_yml(path: Path) -> list[Collection]:
+    if not path.exists():
+        return COLLECTIONS
+
+    sources: list[dict[str, str]] = []
+    current: dict[str, str] | None = None
+    in_sources = False
+    for raw_line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        if not raw_line.strip() or raw_line.lstrip().startswith("#"):
+            continue
+        if raw_line.strip() == "sources:":
+            in_sources = True
+            continue
+        if not in_sources:
+            continue
+        if raw_line.startswith("  - "):
+            if current:
+                sources.append(current)
+            current = {}
+            line = raw_line[4:].strip()
+            if ":" in line:
+                key, value = line.split(":", 1)
+                current[key.strip()] = value.strip()
+            continue
+        if current is not None and raw_line.startswith("    ") and ":" in raw_line:
+            key, value = raw_line.strip().split(":", 1)
+            current[key.strip()] = value.strip()
+    if current:
+        sources.append(current)
+
+    loaded: list[Collection] = []
+    required = {
+        "slug",
+        "title",
+        "category_slug",
+        "category_title",
+        "repo_url",
+        "upstream",
+        "description",
+        "recommended_for",
+        "usage_focus",
+    }
+    for index, item in enumerate(sources, start=1):
+        missing = sorted(required - item.keys())
+        if missing:
+            raise ValueError(f"sources.yml item #{index} missing fields: {', '.join(missing)}")
+        loaded.append(Collection(**{field: item[field] for field in required}))
+    return loaded or COLLECTIONS
 
 
 README_HEADER = """# research-tools
@@ -292,6 +345,119 @@ def write_skill_doc(
     return doc_path
 
 
+def github_tree_url(path: Path) -> str:
+    return f"{GITHUB_REPO_URL}/tree/main/{path.as_posix()}"
+
+
+def svn_export_url(path: Path) -> str:
+    return f"{GITHUB_REPO_URL}/trunk/{path.as_posix()}"
+
+
+def skill_download_path(collection: Collection, relative_skill: Path) -> Path:
+    root = Path("skills") / collection.category_slug / collection.slug
+    if relative_skill.parent == Path("."):
+        return root / relative_skill
+    return root / relative_skill.parent
+
+
+def write_skill_tutorial(
+    skill_file: Path,
+    repo_copy_dir: Path,
+    tutorial_dir: Path,
+    collection: Collection,
+) -> Path:
+    relative_skill = skill_file.relative_to(repo_copy_dir)
+    raw = skill_file.read_text(encoding="utf-8", errors="replace")
+    title = first_heading(raw, relative_skill.parent.name if relative_skill.parent.name != "." else skill_file.stem)
+    excerpt = compact_excerpt(raw, limit=1200)
+    doc_slug = slugify(str(relative_skill.with_suffix("")).replace("\\", "-").replace("/", "-"))
+    doc_path = tutorial_dir / collection.category_slug / collection.slug / f"{doc_slug}.md"
+    skill_file_path = Path("skills") / collection.category_slug / collection.slug / relative_skill
+    download_path = skill_download_path(collection, relative_skill)
+    export_url = svn_export_url(download_path)
+    tree_url = github_tree_url(download_path)
+
+    body = f"""# {title}
+
+## Skill 简介
+
+- 所属分类：{collection.category_title}
+- 所属集合：{collection.title}
+- 上游仓库：[{collection.upstream}](https://github.com/{collection.upstream})
+- 你的仓库位置：[{download_path.as_posix()}]({tree_url})
+- Skill 文件：`{skill_file_path.as_posix()}`
+
+{excerpt or "该 skill 文件没有可自动提取的摘要，请直接打开 skill 文件阅读完整说明。"}
+
+## 下载这个 skill
+
+只下载这个 skill 目录：
+
+```bash
+svn export {export_url}
+```
+
+如果本机没有 `svn`，可以先克隆整个仓库：
+
+```bash
+git clone {GITHUB_REPO_URL}.git
+```
+
+## 如何使用
+
+1. 在 Codex、Claude Code、Cursor、Gemini CLI 或其他支持 skills 的 agent 中打开你的研究项目。
+2. 告诉 agent 先阅读这个 skill 文件：`{skill_file_path.as_posix()}`。
+3. 说明你的研究目标、输入数据、期望输出、运行环境和限制条件。
+4. 要求 agent 先给计划，再执行检索、代码、实验、分析或写作步骤。
+5. 对论文、医学、临床、实验数据相关任务，要求 agent 输出引用来源、关键假设和可复现步骤。
+
+## 推荐提示词
+
+```text
+请读取并使用 {skill_file_path.as_posix()} 这个 skill。
+我的研究任务是：<写清楚课题、数据、目标、约束和预期输出>。
+请先给出执行计划，再开始执行；需要联网、运行代码或修改文件前先说明理由。
+```
+
+"""
+    doc_path.parent.mkdir(parents=True, exist_ok=True)
+    doc_path.write_text(body, encoding="utf-8")
+    return doc_path
+
+
+def write_tutorial_index(tutorial_root: Path, tutorial_docs: dict[str, list[Path]]) -> None:
+    today = dt.date.today().isoformat()
+    blocks: list[str] = []
+    for collection in ACTIVE_COLLECTIONS:
+        docs = tutorial_docs.get(collection.slug, [])
+        rel_links = "\n".join(
+            f"- [{path.stem}]({path.relative_to(tutorial_root).as_posix()})" for path in sorted(docs)
+        ) or "- 未发现可生成教程的 skill。"
+        blocks.append(
+            f"""## {collection.category_title}
+
+### {collection.title}
+
+- 上游仓库：[{collection.upstream}](https://github.com/{collection.upstream})
+- 你的仓库集合位置：[{collection.slug}]({github_tree_url(Path("skills") / collection.category_slug / collection.slug)})
+- 教程数量：{len(docs)}
+
+{rel_links}
+"""
+        )
+
+    body = f"""# Skill 教程索引
+
+生成时间：{today}
+
+这些 Markdown 由 `scripts/sync_research_skills.py` 自动生成。每个 skill 教程都包含简介、使用方法、推荐提示词，以及指向 `guohui11/research-tools` 对应 skill 目录的下载命令。
+
+{chr(10).join(blocks)}
+"""
+    tutorial_root.mkdir(parents=True, exist_ok=True)
+    (tutorial_root / "README.md").write_text(body, encoding="utf-8")
+
+
 def write_collection_doc(
     collection: Collection,
     docs_root: Path,
@@ -329,7 +495,7 @@ def write_collection_doc(
 def write_index(repo_root: Path, generated_root: Path, docs_root: Path, counts: dict[str, int]) -> None:
     today = dt.date.today().isoformat()
     category_blocks: list[str] = []
-    for collection in COLLECTIONS:
+    for collection in ACTIVE_COLLECTIONS:
         local_dir = Path("skills") / collection.category_slug / collection.slug
         docs_dir = Path("docs") / "skills" / collection.category_slug / collection.slug
         count = counts.get(collection.slug, 0)
@@ -393,23 +559,38 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--repo-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--no-download", action="store_true", help="Only regenerate docs from existing skills directory.")
     parser.add_argument("--full-history", action="store_true", help="Clone full git history instead of shallow clones.")
+    parser.add_argument(
+        "--tutorial-output",
+        type=Path,
+        default=None,
+        help="Optional directory for standalone per-skill tutorial Markdown files.",
+    )
     return parser.parse_args()
 
 
+ACTIVE_COLLECTIONS = COLLECTIONS
+
+
 def main() -> int:
+    global ACTIVE_COLLECTIONS
     args = parse_args()
     repo_root = args.repo_root.resolve()
+    ACTIVE_COLLECTIONS = parse_sources_yml(repo_root / "sources.yml")
     generated_root = repo_root / "skills"
     docs_root = repo_root / "docs" / "skills"
     cache_root = repo_root / ".cache" / "research-skill-sources"
     counts: dict[str, int] = {}
+    tutorial_root = args.tutorial_output.resolve() if args.tutorial_output else None
+    tutorial_docs: dict[str, list[Path]] = {}
 
     ensure_inside(generated_root, repo_root)
     ensure_inside(docs_root, repo_root)
     generated_root.mkdir(parents=True, exist_ok=True)
     docs_root.mkdir(parents=True, exist_ok=True)
+    if tutorial_root:
+        tutorial_root.mkdir(parents=True, exist_ok=True)
 
-    for collection in COLLECTIONS:
+    for collection in ACTIVE_COLLECTIONS:
         print(f"\n==> {collection.title}")
         repo_copy_dir = generated_root / collection.category_slug / collection.slug
         if not args.no_download:
@@ -428,11 +609,19 @@ def main() -> int:
             write_skill_doc(skill_file, repo_copy_dir, collection_docs_dir, collection)
             for skill_file in skill_files
         ]
+        if tutorial_root:
+            tutorial_docs[collection.slug] = [
+                write_skill_tutorial(skill_file, repo_copy_dir, tutorial_root, collection)
+                for skill_file in skill_files
+            ]
         counts[collection.slug] = len(doc_paths)
         write_collection_doc(collection, docs_root, doc_paths)
         print(f"Generated {len(doc_paths)} skill docs.")
 
     write_index(repo_root, generated_root, docs_root, counts)
+    if tutorial_root:
+        write_tutorial_index(tutorial_root, tutorial_docs)
+        print(f"Generated tutorial markdown in {tutorial_root}.")
     print("\nDone. Review README.md and docs/index.md, then commit the generated files.")
     return 0
 
