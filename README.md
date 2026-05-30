@@ -5,26 +5,25 @@
 本仓库当前聚焦研究生常用的科研 agent skills：文献调研、课题构思、实验复现、代码执行、数据分析、论文写作和同行评审辅助。
 
 ## 已同步分类
-
-- 通用科学研究 Skills：`skills/scientific-research/scientific-agent-skills`
-- AI 研究全流程 Skills：`skills/ai-research-lifecycle/ai-research-skills`
-- 生物医学研究 Skills：`skills/biomedical-research/openclaw-medical-skills`
+- 通用科学研究 Skills: `skills/scientific-research/scientific-agent-skills`
+- AI 研究全流程 Skills: `skills/ai-research-lifecycle/ai-research-skills`
+- 生物医学研究 Skills: `skills/biomedical-research/openclaw-medical-skills`
+- 学术论文写作 Skills: `skills/academic-writing/paper-spine`
 
 ## 文档入口
 
 - 总索引：[`docs/index.md`](docs/index.md)
+- Skill 目录：[`docs/skills-catalog.md`](docs/skills-catalog.md)
 - 每个 skill 的使用说明：[`docs/skills/`](docs/skills/)
 
 ## 更新方法
 
-PowerShell：
-
+PowerShell:
 ```powershell
 ./scripts/sync_research_skills.ps1
 ```
 
-通用 Python：
-
+通用 Python:
 ```bash
 python scripts/sync_research_skills.py
 ```

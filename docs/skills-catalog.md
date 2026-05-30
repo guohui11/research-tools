@@ -1,14 +1,460 @@
 # Skills 能力目录索引
 
-生成时间：2026-05-27
+生成时间：2026-05-30
 
 仓库：[https://github.com/guohui11/research-tools](https://github.com/guohui11/research-tools)
 
-共收录 1134 个 skill。这个索引用来先按需求筛选 skill，再只下载需要的目录。
+共收录 1166 个 skill。这个索引用来先按需求筛选 skill，再只下载需要的目录。
 
 ## 使用方式
 
 把你的需求描述给 agent，让它先读取 `docs/skills-catalog.json` 或本 Markdown，然后推荐 3-5 个最相关的 skill。推荐结果应包含原因和下载命令。
+
+## academic-writing
+
+### PaperSpine Orchestrator
+
+- 集合：`paper-spine`
+- 简介：Internal orchestrator — users should use /paperspine to start a full workflow.
+- 标签：academic, claude, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine
+```
+
+### PaperSpine Orchestrator
+
+- 集合：`paper-spine`
+- 简介：Internal orchestrator — users should use /paperspine to start a full workflow.
+- 标签：academic, codex, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/paper-spine](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/paper-spine)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/paper-spine
+```
+
+### PaperSpine Orchestrator
+
+- 集合：`paper-spine`
+- 简介：Internal orchestrator — users should use /paperspine to start a full workflow.
+- 标签：academic, codex, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine
+```
+
+### PaperSpine Orchestrator
+
+- 集合：`paper-spine`
+- 简介：Internal orchestrator — users should use /paperspine to start a full workflow.
+- 标签：academic, dist, LaTeX, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine
+```
+
+### PaperSpine Audit
+
+- 集合：`paper-spine`
+- 简介：Audits PaperSpine outputs for missing artifacts, shallow revisions, logic transfer, unsupported claims, and translation coverage.
+- 标签：academic, Agent, audit, claude, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-audit](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-audit)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-audit
+```
+
+### PaperSpine Audit
+
+- 集合：`paper-spine`
+- 简介：Audits PaperSpine outputs for missing artifacts, shallow revisions, logic transfer, unsupported claims, and translation coverage.
+- 标签：academic, Agent, audit, codex, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-audit](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-audit)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-audit
+```
+
+### PaperSpine Audit
+
+- 集合：`paper-spine`
+- 简介：Audits PaperSpine outputs for missing artifacts, shallow revisions, logic transfer, unsupported claims, and translation coverage.
+- 标签：academic, Agent, audit, dist, LaTeX, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-audit](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-audit)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-audit
+```
+
+### PaperSpine Build From Materials
+
+- 集合：`paper-spine`
+- 简介：Builds a paper or report from materials using the shared PaperSpine research, motivation, and rationale workflow.
+- 标签：academic, Agent, build, claude, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-build](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-build)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-build
+```
+
+### PaperSpine Build From Materials
+
+- 集合：`paper-spine`
+- 简介：Builds a paper or report from materials using the shared PaperSpine research, motivation, and rationale workflow.
+- 标签：academic, Agent, build, codex, dist, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-build](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-build)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-build
+```
+
+### PaperSpine Build From Materials
+
+- 集合：`paper-spine`
+- 简介：Builds a paper or report from materials using the shared PaperSpine research, motivation, and rationale workflow.
+- 标签：academic, Agent, build, dist, LaTeX, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-build](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-build)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-build
+```
+
+### PaperSpine Citation
+
+- 集合：`paper-spine`
+- 简介：Builds a citation support bank for Introduction, Discussion, and background claims.
+- 标签：academic, arXiv, citation, claude, dist, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-citation](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-citation)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-citation
+```
+
+### PaperSpine Citation
+
+- 集合：`paper-spine`
+- 简介：Builds a citation support bank for Introduction, Discussion, and background claims.
+- 标签：academic, arXiv, citation, codex, dist, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-citation](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-citation)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-citation
+```
+
+### PaperSpine Citation
+
+- 集合：`paper-spine`
+- 简介：Builds a citation support bank for Introduction, Discussion, and background claims.
+- 标签：academic, arXiv, citation, dist, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-citation](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-citation)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-citation
+```
+
+### PaperSpine Humanize
+
+- 集合：`paper-spine`
+- 简介：Reduces AI detection rates via tiered stylistic constraints mapped to real AIGC detection dimensions. Produces a teaching humanize_matrix.md.
+- 标签：academic, claude, dist, humanize, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-humanize](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-humanize)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-humanize
+```
+
+### PaperSpine Humanize
+
+- 集合：`paper-spine`
+- 简介：Reduces AI detection rates via tiered stylistic constraints mapped to real AIGC detection dimensions. Produces a teaching humanize_matrix.md.
+- 标签：academic, codex, dist, humanize, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-humanize](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-humanize)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-humanize
+```
+
+### PaperSpine Humanize
+
+- 集合：`paper-spine`
+- 简介：Reduces AI detection rates via tiered stylistic constraints mapped to real AIGC detection dimensions. Produces a teaching humanize_matrix.md.
+- 标签：academic, dist, humanize, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-humanize](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-humanize)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-humanize
+```
+
+### PaperSpine Intake
+
+- 集合：`paper-spine`
+- 简介：Collects PaperSpine workflow options and writes config for flash/pro, scene, language, and inputs.
+- 标签：academic, Agent, claude, dist, intake, paper, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-intake](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-intake)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-intake
+```
+
+### PaperSpine Intake
+
+- 集合：`paper-spine`
+- 简介：Collects PaperSpine workflow options and writes config for flash/pro, scene, language, and inputs.
+- 标签：academic, Agent, codex, dist, intake, paper, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-intake](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-intake)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-intake
+```
+
+### PaperSpine Intake
+
+- 集合：`paper-spine`
+- 简介：Collects PaperSpine workflow options and writes config for flash/pro, scene, language, and inputs.
+- 标签：academic, Agent, dist, intake, openclaw, paper, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-intake](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-intake)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-intake
+```
+
+### PaperSpine LaTeX
+
+- 集合：`paper-spine`
+- 简介：Handles LaTeX project assembly, figure placement, citations, labels, and compile-safe cleanup.
+- 标签：academic, claude, dist, latex, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-latex](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-latex)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-latex
+```
+
+### PaperSpine LaTeX
+
+- 集合：`paper-spine`
+- 简介：Handles LaTeX project assembly, figure placement, citations, labels, and compile-safe cleanup.
+- 标签：academic, codex, dist, latex, LaTeX, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-latex](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-latex)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-latex
+```
+
+### PaperSpine LaTeX
+
+- 集合：`paper-spine`
+- 简介：Handles LaTeX project assembly, figure placement, citations, labels, and compile-safe cleanup.
+- 标签：academic, dist, latex, LaTeX, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-latex](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-latex)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-latex
+```
+
+### PaperSpine Research
+
+- 集合：`paper-spine`
+- 简介：Researches target requirements, downloads reference materials, learns strong examples, and prepares motivation options.
+- 标签：academic, Agent, claude, dist, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-research](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-research)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-research
+```
+
+### PaperSpine Research
+
+- 集合：`paper-spine`
+- 简介：Researches target requirements, downloads reference materials, learns strong examples, and prepares motivation options.
+- 标签：academic, Agent, codex, dist, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-research](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-research)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-research
+```
+
+### PaperSpine Research
+
+- 集合：`paper-spine`
+- 简介：Researches target requirements, downloads reference materials, learns strong examples, and prepares motivation options.
+- 标签：academic, Agent, dist, openclaw, paper, RAG, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-research](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-research)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-research
+```
+
+### PaperSpine Rewrite
+
+- 集合：`paper-spine`
+- 简介：Rewrites an existing manuscript from confirmed motivation, research, paragraph-level rationale, and evidence.
+- 标签：academic, Agent, claude, dist, LaTeX, paper, RAG, rewrite, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-rewrite](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-rewrite)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-rewrite
+```
+
+### PaperSpine Rewrite
+
+- 集合：`paper-spine`
+- 简介：Rewrites an existing manuscript from confirmed motivation, research, paragraph-level rationale, and evidence.
+- 标签：academic, Agent, codex, dist, LaTeX, paper, RAG, rewrite, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-rewrite](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-rewrite)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-rewrite
+```
+
+### PaperSpine Rewrite
+
+- 集合：`paper-spine`
+- 简介：Rewrites an existing manuscript from confirmed motivation, research, paragraph-level rationale, and evidence.
+- 标签：academic, Agent, dist, LaTeX, openclaw, paper, RAG, rewrite, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-rewrite](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-rewrite)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-rewrite
+```
+
+### PaperSpine Translate
+
+- 集合：`paper-spine`
+- 简介：Produces the complete translation_zh/ package with row-by-row translation of all required artifacts and full-paper translation.
+- 标签：academic, claude, dist, LaTeX, paper, RAG, skill.md, spine, translate, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-translate](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-translate)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-translate
+```
+
+### PaperSpine Translate
+
+- 集合：`paper-spine`
+- 简介：Produces the complete translation_zh/ package with row-by-row translation of all required artifacts and full-paper translation.
+- 标签：academic, codex, dist, LaTeX, paper, RAG, skill.md, spine, translate, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-translate](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-translate)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-translate
+```
+
+### PaperSpine Translate
+
+- 集合：`paper-spine`
+- 简介：Produces the complete translation_zh/ package with row-by-row translation of all required artifacts and full-paper translation.
+- 标签：academic, dist, LaTeX, openclaw, paper, RAG, skill.md, spine, translate, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-translate](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-translate)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-translate
+```
+
+### PaperSpine UI
+
+- 集合：`paper-spine`
+- 简介：Launches the PaperSpine external terminal configuration UI for Codex and Claude Code.
+- 标签：academic, claude, dist, paper, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-ui](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-ui)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-ui
+```
+
+### PaperSpine UI
+
+- 集合：`paper-spine`
+- 简介：Launches the PaperSpine external terminal configuration UI for Codex and Claude Code.
+- 标签：academic, codex, dist, paper, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-ui](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-ui)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-ui
+```
+
+### PaperSpine UI
+
+- 集合：`paper-spine`
+- 简介：Launches the PaperSpine external terminal configuration UI for Codex and Claude Code.
+- 标签：academic, dist, openclaw, paper, skill.md, spine, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-ui](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-ui)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-ui
+```
+
+### PaperSpine Update
+
+- 集合：`paper-spine`
+- 简介：Checks and updates PaperSpine from GitHub while preserving global config; use for upgrades, latest-version checks, or local reinstall.
+- 标签：academic, claude, dist, paper, skill.md, spine, update, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-update](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-update)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/claude/skills/paper-spine-update
+```
+
+### PaperSpine Update
+
+- 集合：`paper-spine`
+- 简介：Checks and updates PaperSpine from GitHub while preserving global config; use for upgrades, latest-version checks, or local reinstall.
+- 标签：academic, codex, dist, paper, skill.md, spine, update, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-update](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-update)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/codex/skills/paper-spine-update
+```
+
+### PaperSpine Update
+
+- 集合：`paper-spine`
+- 简介：Checks and updates PaperSpine from GitHub while preserving global config; use for upgrades, latest-version checks, or local reinstall.
+- 标签：academic, dist, openclaw, paper, skill.md, spine, update, writing
+- GitHub：[skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-update](https://github.com/guohui11/research-tools/tree/main/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-update)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/academic-writing/paper-spine/dist/openclaw/skills/paper-spine-update
+```
 
 ## ai-research-lifecycle
 
@@ -16,7 +462,7 @@
 
 - 集合：`ai-research-skills`
 - 简介：Generates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architecture diagrams via Gemini. Given experiment results or data, auto-selects chart typ
-- 标签：academic, Academic Writing, Diagrams, Figures, ICLR, ICML, LaTeX, lifecycle, Matplotlib, NeurIPS, paper, plotting, Plotting, RAG, Seaborn, skill.md, Visualization, visualization, writing
+- 标签：academic, Academic Writing, Diagrams, Figures, ICLR, ICML, LaTeX, lifecycle, Matplotlib, NeurIPS, paper, plotting, Plotting, RAG, Seaborn, skill.md, visualization, Visualization, writing
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/20-ml-paper-writing/academic-plotting](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/20-ml-paper-writing/academic-plotting)
 - 下载命令：
 
@@ -28,7 +474,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics), physical layer (configs, code stubs), exp
-- 标签：Agent, agent, ARA, artifact, arXiv, compiler, Epistemic Compilation, evaluation, Exploration Graph, Knowledge Extraction, lifecycle, LoRA, native, Paper Ingestion, Provenance, RAG, Research Artifacts, Research Tooling, skill.md
+- 标签：agent, Agent, ARA, artifact, arXiv, compiler, Epistemic Compilation, evaluation, Exploration Graph, Knowledge Extraction, lifecycle, LoRA, native, Paper Ingestion, Provenance, RAG, Research Artifacts, Research Tooling, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/22-agent-native-research-artifact/compiler](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/22-agent-native-research-artifact/compiler)
 - 下载命令：
 
@@ -40,7 +486,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends, claims, heuristics, and pivots, and writing them into the ara/ directory with user-vs-AI
-- 标签：agent, Agent, ARA, artifact, Exploration Tree, Knowledge Management, lifecycle, LoRA, manager, native, Provenance, Research Recording, Research Tooling, Session Logging, skill.md
+- 标签：Agent, agent, ARA, artifact, Exploration Tree, Knowledge Management, lifecycle, LoRA, manager, native, Provenance, Research Recording, Research Tooling, Session Logging, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/22-agent-native-research-artifact/research-manager](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/22-agent-native-research-artifact/research-manager)
 - 下载命令：
 
@@ -52,7 +498,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument coherence, exploration integrity, methodological rigor) and producing a constructive
-- 标签：Agent, agent, alignment, ARA, artifact, Audit, Epistemic Review, evaluation, Falsifiability, lifecycle, LLM, LoRA, native, Peer Review, RAG, Research Rigor, Research Tooling, reviewer, rigor, Scoring, skill.md
+- 标签：agent, Agent, alignment, ARA, artifact, Audit, Epistemic Review, evaluation, Falsifiability, lifecycle, LLM, LoRA, native, Peer Review, RAG, Research Rigor, Research Tooling, reviewer, rigor, Scoring, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/22-agent-native-research-artifact/rigor-reviewer](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/22-agent-native-research-artifact/rigor-reviewer)
 - 下载命令：
 
@@ -64,7 +510,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music generation.
-- 标签：arXiv, Audio Generation, audiocraft, fine-tuning, lifecycle, Multimodal, multimodal, MusicGen, skill.md, Text-to-Audio, Text-to-Music
+- 标签：arXiv, Audio Generation, audiocraft, fine-tuning, lifecycle, multimodal, Multimodal, MusicGen, skill.md, Text-to-Audio, Text-to-Music
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/audiocraft](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/audiocraft)
 - 下载命令：
 
@@ -76,7 +522,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems.
-- 标签：Agent, Agents, agents, AI Platform, AutoGPT, autogpt, Autonomous Agents, lifecycle, LLM, RAG, skill.md, Visual Builder, Workflow Automation
+- 标签：Agent, Agents, agents, AI Platform, autogpt, AutoGPT, Autonomous Agents, lifecycle, LLM, RAG, skill.md, Visual Builder, Workflow Automation
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/14-agents/autogpt](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/14-agents/autogpt)
 - 下载命令：
 
@@ -100,7 +546,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss. Use when deploying large models (7B-70B) on limited GPU memory, when you need faster inference than GPTQ with better accuracy preservation, or for instruc
-- 标签：4-Bit, Activation-Aware, arXiv, awq, AWQ, Fast Inference, lifecycle, LLM, LoRA, Marlin Kernels, Memory Optimization, Optimization, optimization, QLoRA, Quantization, skill.md, vLLM Integration
+- 标签：4-Bit, Activation-Aware, arXiv, AWQ, awq, Fast Inference, lifecycle, LLM, LoRA, Marlin Kernels, Memory Optimization, Optimization, optimization, QLoRA, Quantization, skill.md, vLLM Integration
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/10-optimization/awq](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/10-optimization/awq)
 - 下载命令：
 
@@ -112,7 +558,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support
-- 标签：axolotl, Axolotl, DeepSpeed, DPO, fine, fine-tuning, Fine-Tuning, GRPO, HuggingFace, KTO, lifecycle, LLM, LoRA, Multimodal, ORPO, QLoRA, skill.md, tuning, YAML
+- 标签：axolotl, Axolotl, DeepSpeed, DPO, fine, Fine-Tuning, fine-tuning, GRPO, HuggingFace, KTO, lifecycle, LLM, LoRA, Multimodal, ORPO, QLoRA, skill.md, tuning, YAML
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/axolotl](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/axolotl)
 - 下载命令：
 
@@ -124,7 +570,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Vision-language pre-training framework bridging frozen image encoders and LLMs. Use when you need image captioning, visual question answering, image-text retrieval, or multimodal chat with state-of-the-art zero-shot performance.
-- 标签：arXiv, blip, fine-tuning, Image Captioning, lifecycle, LLM, Multimodal, multimodal, RAG, skill.md, Vision-Language, VQA, Zero-Shot
+- 标签：arXiv, blip, fine-tuning, Image Captioning, lifecycle, LLM, multimodal, Multimodal, RAG, skill.md, Vision-Language, VQA, Zero-Shot
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/blip-2](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/blip-2)
 - 下载命令：
 
@@ -160,7 +606,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Bes
-- 标签：arXiv, clip, CLIP, Content Moderation, Cross-Modal Retrieval, fine-tuning, Image Classification, Image Search, lifecycle, Multimodal, multimodal, OpenAI, skill.md, Vision-Language, Zero-Shot
+- 标签：arXiv, CLIP, clip, Content Moderation, Cross-Modal Retrieval, fine-tuning, Image Classification, Image Search, lifecycle, multimodal, Multimodal, OpenAI, skill.md, Vision-Language, Zero-Shot
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/clip](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/clip)
 - 下载命令：
 
@@ -244,7 +690,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring code generation quality. Industry standard f
-- 标签：Benchmarking, BigCode, bigcode, Code Generation, Code Models, evaluation, Evaluation, harness, HumanEval, lifecycle, LLM, MBPP, MultiPL-E, Pass@k, skill.md
+- 标签：Benchmarking, bigcode, BigCode, Code Generation, Code Models, Evaluation, evaluation, harness, HumanEval, lifecycle, LLM, MBPP, MultiPL-E, Pass@k, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/11-evaluation/bigcode-evaluation-harness](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/11-evaluation/bigcode-evaluation-harness)
 - 下载命令：
 
@@ -256,7 +702,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inference latency on cluster or local GPU mach
-- 标签：alignment, cosmos, Cosmos Policy, EGL Rendering, evaluation, Evaluation, fine-tuning, LIBERO, lifecycle, multimodal, policy, Profiling, RAG, RoboCasa, Robotics, Simulation, skill.md, VLA
+- 标签：alignment, cosmos, Cosmos Policy, EGL Rendering, Evaluation, evaluation, fine-tuning, LIBERO, lifecycle, multimodal, policy, Profiling, RAG, RoboCasa, Robotics, Simulation, skill.md, VLA
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/cosmos-policy](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/cosmos-policy)
 - 下载命令：
 
@@ -268,7 +714,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry standard used by EleutherAI, HuggingFace,
-- 标签：Academic Benchmarks, Benchmarking, EleutherAI, evaluation, Evaluation, GSM8K, harness, HumanEval, Industry Standard, lifecycle, LLM, LM Evaluation Harness, MMLU, Model Quality, skill.md
+- 标签：Academic Benchmarks, Benchmarking, EleutherAI, Evaluation, evaluation, GSM8K, harness, HumanEval, Industry Standard, lifecycle, LLM, LM Evaluation Harness, MMLU, Model Quality, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/11-evaluation/lm-evaluation-harness](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/11-evaluation/lm-evaluation-harness)
 - 下载命令：
 
@@ -292,7 +738,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Provides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows.
-- 标签：evaluation, Experiment Tracking, Fastai, lifecycle, MLOps, mlops, Open Source, PyTorch, PyTorch Lightning, Self-Hosted, skill.md, SwanLab, swanlab, Transformers, Visualization, visualization
+- 标签：evaluation, Experiment Tracking, Fastai, lifecycle, mlops, MLOps, Open Source, PyTorch, PyTorch Lightning, Self-Hosted, skill.md, SwanLab, swanlab, Transformers, Visualization, visualization
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/13-mlops/swanlab](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/13-mlops/swanlab)
 - 下载命令：
 
@@ -304,7 +750,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similar
-- 标签：Billion-Scale, Facebook AI, faiss, FAISS, GPU Acceleration, High Performance, HNSW, K-NN, Large Scale, lifecycle, rag, RAG, Similarity Search, skill.md, Vector Search
+- 标签：Billion-Scale, Facebook AI, FAISS, faiss, GPU Acceleration, High Performance, HNSW, K-NN, Large Scale, lifecycle, RAG, rag, Similarity Search, skill.md, Vector Search
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/15-rag/faiss](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/15-rag/faiss)
 - 下载命令：
 
@@ -316,7 +762,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO simulation and ALOHA real-world setups. Use when reproducing OpenVLA-OFT paper results, tr
-- 标签：Action Chunking, ALOHA, arXiv, Continuous Actions, Deployment, evaluation, FiLM, fine-tuning, Fine-Tuning, LIBERO, lifecycle, LLM, LoRA, multimodal, oft, openvla, OpenVLA, OpenVLA-OFT, RAG, Robotics, skill.md, VLA
+- 标签：Action Chunking, ALOHA, arXiv, Continuous Actions, Deployment, evaluation, FiLM, Fine-Tuning, fine-tuning, LIBERO, lifecycle, LLM, LoRA, multimodal, oft, OpenVLA, openvla, OpenVLA-OFT, RAG, Robotics, skill.md, VLA
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/openvla-oft](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/openvla-oft)
 - 下载命令：
 
@@ -328,7 +774,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments. Use when adapting pi0 models to custom datasets, converting JAX checkpoints to
-- 标签：ALOHA, DROID, evaluation, fine-tuning, Fine-Tuning, JAX, LIBERO, lifecycle, LoRA, multimodal, OpenPI, openpi, Physical Intelligence, pi0, Policy Serving, PyTorch, Robotics, skill.md, VLA
+- 标签：ALOHA, DROID, evaluation, Fine-Tuning, fine-tuning, JAX, LIBERO, lifecycle, LoRA, multimodal, openpi, OpenPI, Physical Intelligence, pi0, Policy Serving, PyTorch, Robotics, skill.md, VLA
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/openpi](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/openpi)
 - 下载命令：
 
@@ -352,7 +798,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements.
-- 标签：Apple Silicon, CPU Inference, GGUF, gguf, lifecycle, llama.cpp, LLM, Model Compression, Optimization, optimization, Quantization, skill.md
+- 标签：Apple Silicon, CPU Inference, gguf, GGUF, lifecycle, llama.cpp, LLM, Model Compression, Optimization, optimization, Quantization, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/10-optimization/gguf](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/10-optimization/gguf)
 - 下载命令：
 
@@ -364,7 +810,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Post-training 4-bit quantization for LLMs with minimal accuracy loss. Use for deploying large models (70B, 405B) on consumer GPUs, when you need 4× memory reduction with <2% perplexity degradation, or for faster inference (3-4× speedup) vs FP16. Integrates wit
-- 标签：4-Bit, arXiv, Consumer GPUs, Fast Inference, fine-tuning, GPTQ, gptq, Group-Wise Quantization, lifecycle, LLM, LoRA, Memory Optimization, optimization, Optimization, Post-Training, QLoRA, Quantization, skill.md
+- 标签：4-Bit, arXiv, Consumer GPUs, Fast Inference, fine-tuning, gptq, GPTQ, Group-Wise Quantization, lifecycle, LLM, LoRA, Memory Optimization, Optimization, optimization, Post-Training, QLoRA, Quantization, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/10-optimization/gptq](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/10-optimization/gptq)
 - 下载命令：
 
@@ -376,7 +822,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training
-- 标签：Agent, arXiv, DPO, fine-tuning, GRPO, grpo, lifecycle, LLM, LoRA, post, Post-Training, PPO, RAG, Reasoning, Reinforcement Learning, Reward Modeling, RLHF, skill.md, Structured Output, training, TRL
+- 标签：Agent, arXiv, DPO, fine-tuning, grpo, GRPO, lifecycle, LLM, LoRA, post, Post-Training, PPO, RAG, Reasoning, Reinforcement Learning, Reward Modeling, RLHF, skill.md, Structured Output, training, TRL
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/06-post-training/grpo-rl-training](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/06-post-training/grpo-rl-training)
 - 下载命令：
 
@@ -400,7 +846,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Half-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or HuggingFace Transformers.
-- 标签：fine-tuning, HQQ, hqq, Inference, lifecycle, LLM, LoRA, Memory Efficiency, Model Compression, Optimization, optimization, QLoRA, Quantization, skill.md
+- 标签：fine-tuning, hqq, HQQ, Inference, lifecycle, LLM, LoRA, Memory Efficiency, Model Compression, Optimization, optimization, QLoRA, Quantization, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/10-optimization/hqq](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/10-optimization/hqq)
 - 下载命令：
 
@@ -412,7 +858,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosys
-- 标签：accelerate, Accelerate, DDP, DeepSpeed, distributed, Distributed Training, FSDP, HuggingFace, lifecycle, Mixed Precision, PyTorch, Simple, skill.md, training, Unified API
+- 标签：Accelerate, accelerate, DDP, DeepSpeed, distributed, Distributed Training, FSDP, HuggingFace, lifecycle, Mixed Precision, PyTorch, Simple, skill.md, training, Unified API
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/08-distributed-training/accelerate](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/08-distributed-training/accelerate)
 - 下载命令：
 
@@ -424,7 +870,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with t
-- 标签：alignment, Alignment Tracking, BPE, Custom Tokenizer, Fast Tokenization, HuggingFace, huggingface, lifecycle, Production, RAG, Rust, skill.md, Tokenization, tokenization, tokenizers, Unigram, WordPiece
+- 标签：alignment, Alignment Tracking, BPE, Custom Tokenizer, Fast Tokenization, huggingface, HuggingFace, lifecycle, Production, RAG, Rust, skill.md, tokenization, Tokenization, tokenizers, Unigram, WordPiece
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/02-tokenization/huggingface-tokenizers](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/02-tokenization/huggingface-tokenizers)
 - 下载命令：
 
@@ -436,7 +882,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral). Use when need clean model implementations, educational understanding of architectures, or production fine-tuning with LoRA/QLoRA. Singl
-- 标签：architecture, Educational, fine-tuning, Fine-Tuning, Gemma, lifecycle, Lightning AI, litgpt, LitGPT, Llama, LLM, LLM Implementation, LoRA, Mistral, model, Model Architecture, Phi, QLoRA, RAG, skill.md
+- 标签：architecture, Educational, Fine-Tuning, fine-tuning, Gemma, lifecycle, Lightning AI, litgpt, LitGPT, Llama, LLM, LLM Implementation, LoRA, Mistral, model, Model Architecture, Phi, QLoRA, RAG, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/01-model-architecture/litgpt](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/01-model-architecture/litgpt)
 - 下载命令：
 
@@ -472,7 +918,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.
-- 标签：fine-tuning, GPU Cloud, Inference, infrastructure, Infrastructure, labs, lambda, Lambda Labs, lifecycle, LLM, RAG, skill.md, Training
+- 标签：fine-tuning, GPU Cloud, Inference, Infrastructure, infrastructure, labs, lambda, Lambda Labs, lifecycle, LLM, RAG, skill.md, Training
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/09-infrastructure/lambda-labs](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/09-infrastructure/lambda-labs)
 - 下载命令：
 
@@ -484,7 +930,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool calling, memory management, and vector store retrieval. Use for building chatbots, ques
-- 标签：Agent, Agents, agents, Chatbots, LangChain, langchain, lifecycle, LLM, LLM Applications, Memory Management, Production, RAG, ReAct, skill.md, Tool Calling, Vector Stores
+- 标签：Agent, Agents, agents, Chatbots, langchain, LangChain, lifecycle, LLM, LLM Applications, Memory Management, Production, RAG, ReAct, skill.md, Tool Calling, Vector Stores
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/14-agents/langchain](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/14-agents/langchain)
 - 下载命令：
 
@@ -496,7 +942,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.
-- 标签：Agent, Debugging, evaluation, Evaluation, LangSmith, langsmith, lifecycle, LLM, LLM Ops, Monitoring, Observability, observability, Production, RAG, skill.md, Testing, Tracing
+- 标签：Agent, Debugging, Evaluation, evaluation, LangSmith, langsmith, lifecycle, LLM, LLM Ops, Monitoring, observability, Observability, Production, RAG, skill.md, Testing, Tracing
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/17-observability/langsmith](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/17-observability/langsmith)
 - 下载命令：
 
@@ -520,7 +966,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support
-- 标签：factory, fine, fine-tuning, Fine-Tuning, Gemma, HuggingFace, lifecycle, Llama, llama, LLaMA Factory, LLM, LoRA, Multimodal, No-Code, QLoRA, Qwen, skill.md, tuning, WebUI
+- 标签：factory, fine, Fine-Tuning, fine-tuning, Gemma, HuggingFace, lifecycle, Llama, llama, LLaMA Factory, LLM, LoRA, Multimodal, No-Code, QLoRA, Qwen, skill.md, tuning, WebUI
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/llama-factory](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/llama-factory)
 - 下载命令：
 
@@ -532,7 +978,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Meta's 7-8B specialized moderation model for LLM input/output filtering. 6 safety categories - violence/hate, sexual content, weapons, substances, self-harm, criminal planning. 94-95% accuracy. Deploy with vLLM, HuggingFace, Sagemaker. Integrates with NeMo Gua
-- 标签：AI Safety, alignment, Content Moderation, drug, fine-tuning, Guardrails, Input Filtering, lifecycle, LlamaGuard, llamaguard, LLM, LoRA, Meta, Output Filtering, QLoRA, safety, Safety Alignment, Safety Classification, skill.md
+- 标签：AI Safety, alignment, Content Moderation, drug, fine-tuning, Guardrails, Input Filtering, lifecycle, llamaguard, LlamaGuard, LLM, LoRA, Meta, Output Filtering, QLoRA, safety, Safety Alignment, Safety Classification, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/07-safety-alignment/llamaguard](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/07-safety-alignment/llamaguard)
 - 下载命令：
 
@@ -544,7 +990,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for document Q&A, chatbots, knowledge retrieval, or
-- 标签：Agent, Agents, agents, Connectors, Data Framework, Document Ingestion, evaluation, Knowledge Retrieval, lifecycle, llamaindex, LlamaIndex, LLM, Multimodal, Private Data, Query Engines, RAG, skill.md, Vector Indices
+- 标签：Agent, Agents, agents, Connectors, Data Framework, Document Ingestion, evaluation, Knowledge Retrieval, lifecycle, LlamaIndex, llamaindex, LLM, Multimodal, Private Data, Query Engines, RAG, skill.md, Vector Indices
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/14-agents/llamaindex](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/14-agents/llamaindex)
 - 下载命令：
 
@@ -556,7 +1002,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for
-- 标签：alignment, arXiv, CLIP, Conversational AI, Image Chat, Instruction Tuning, lifecycle, llava, LLaVA, LLM, Multimodal, multimodal, skill.md, Vicuna, Vision-Language, Visual Question Answering, VQA
+- 标签：alignment, arXiv, CLIP, Conversational AI, Image Chat, Instruction Tuning, lifecycle, LLaVA, llava, LLM, multimodal, Multimodal, skill.md, Vicuna, Vision-Language, Visual Question Answering, VQA
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/llava](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/llava)
 - 下载命令：
 
@@ -580,7 +1026,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：State-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-head). Models 130M-2.8B on HuggingFace.
-- 标签：Alternative To Transformers, architecture, arXiv, Efficient Inference, Hardware-Aware, lifecycle, Linear Complexity, Long Context, Mamba, mamba, model, Model Architecture, skill.md, SSM, State Space Models
+- 标签：Alternative To Transformers, architecture, arXiv, Efficient Inference, Hardware-Aware, lifecycle, Linear Complexity, Long Context, mamba, Mamba, model, Model Architecture, skill.md, SSM, State Space Models
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/01-model-architecture/mamba](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/01-model-architecture/mamba)
 - 下载命令：
 
@@ -628,7 +1074,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform
-- 标签：Deployment, evaluation, Experiment Tracking, HuggingFace, lifecycle, ML Lifecycle, mlflow, MLflow, MLOps, mlops, Model Registry, Model Versioning, PyTorch, Scikit-Learn, skill.md, TensorFlow
+- 标签：Deployment, evaluation, Experiment Tracking, HuggingFace, lifecycle, ML Lifecycle, MLflow, mlflow, mlops, MLOps, Model Registry, Model Versioning, PyTorch, Scikit-Learn, skill.md, TensorFlow
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/13-mlops/mlflow](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/13-mlops/mlflow)
 - 下载命令：
 
@@ -640,7 +1086,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.
-- 标签：Cloud, Deployment, GPU, infrastructure, Infrastructure, lifecycle, modal, Modal, RAG, Serverless, skill.md
+- 标签：Cloud, Deployment, GPU, Infrastructure, infrastructure, lifecycle, Modal, modal, RAG, Serverless, skill.md
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/09-infrastructure/modal](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/09-infrastructure/modal)
 - 下载命令：
 
@@ -688,7 +1134,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hackable code for learning transformers. By Andrej Karpathy. Perfect for understanding GPT architecture from scratch. Train on Shakespeare (CPU) or OpenWebText (multi-
-- 标签：Andrej Karpathy, architecture, Educational, fine-tuning, From Scratch, GPT-2, lifecycle, Minimalist, model, Model Architecture, nanogpt, NanoGPT, skill.md, Training, Transformer
+- 标签：Andrej Karpathy, architecture, Educational, fine-tuning, From Scratch, GPT-2, lifecycle, Minimalist, model, Model Architecture, NanoGPT, nanogpt, skill.md, Training, Transformer
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/01-model-architecture/nanogpt](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/01-model-architecture/nanogpt)
 - 下载命令：
 
@@ -712,7 +1158,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution. Use when needing scalable evaluation on local Docker, Slurm HPC, or cloud platforms. NVIDIA's enterprise-grade platform with container-
-- 标签：Agent, Benchmarking, Docker, Enterprise, evaluation, Evaluation, evaluator, HumanEval, lifecycle, LLM, MMLU, Multi-Backend, NeMo, nemo, NVIDIA, Reproducible, skill.md, Slurm
+- 标签：Agent, Benchmarking, Docker, Enterprise, Evaluation, evaluation, evaluator, HumanEval, lifecycle, LLM, MMLU, Multi-Backend, nemo, NeMo, NVIDIA, Reproducible, skill.md, Slurm
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/11-evaluation/nemo-evaluator](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/11-evaluation/nemo-evaluator)
 - 下载命令：
 
@@ -748,7 +1194,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU resource sharing.
-- 标签：Agent, arXiv, Distributed Training, DPO, fine-tuning, GRPO, Large Models, lifecycle, LLM, openrlhf, OpenRLHF, post, Post-Training, PPO, Ray, RLHF, RLOO, skill.md, training, vLLM, ZeRO-3
+- 标签：Agent, arXiv, Distributed Training, DPO, fine-tuning, GRPO, Large Models, lifecycle, LLM, OpenRLHF, openrlhf, post, Post-Training, PPO, Ray, RLHF, RLOO, skill.md, training, vLLM, ZeRO-3
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/06-post-training/openrlhf](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/06-post-training/openrlhf)
 - 下载命令：
 
@@ -784,7 +1230,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's of
-- 标签：Adapters, arXiv, fine, fine-tuning, Fine-Tuning, lifecycle, LLM, LoRA, Low-Rank, Memory Optimization, Multi-Adapter, Parameter-Efficient, peft, PEFT, QLoRA, skill.md, tuning
+- 标签：Adapters, arXiv, fine, Fine-Tuning, fine-tuning, lifecycle, LLM, LoRA, Low-Rank, Memory Optimization, Multi-Adapter, Parameter-Efficient, PEFT, peft, QLoRA, skill.md, tuning
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/peft](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/peft)
 - 下载命令：
 
@@ -796,7 +1242,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.
-- 标签：Arize, evaluation, Evaluation, lifecycle, LLM, LLM Ops, Monitoring, Observability, observability, OpenTelemetry, phoenix, Phoenix, RAG, skill.md, Tracing
+- 标签：Arize, Evaluation, evaluation, lifecycle, LLM, LLM Ops, Monitoring, observability, Observability, OpenTelemetry, Phoenix, phoenix, RAG, skill.md, Tracing
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/17-observability/phoenix](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/17-observability/phoenix)
 - 下载命令：
 
@@ -808,7 +1254,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale.
-- 标签：Auto-Scaling, Hybrid Search, lifecycle, Low Latency, Managed Service, pinecone, Pinecone, Production, rag, RAG, Recommendations, Serverless, skill.md, Vector Database
+- 标签：Auto-Scaling, Hybrid Search, lifecycle, Low Latency, Managed Service, pinecone, Pinecone, Production, RAG, rag, Recommendations, Serverless, skill.md, Vector Database
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/15-rag/pinecone](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/15-rag/pinecone)
 - 下载命令：
 
@@ -844,7 +1290,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based sharding with DeviceMesh.
-- 标签：Agent, Device Mesh, distributed, Distributed Training, DTensor, FSDP2, fsdp2, Fully Sharded Data Parallel, lifecycle, Mixed Precision, Offload, PyTorch, pytorch, Sharded Checkpointing, skill.md, Torch Distributed, training
+- 标签：Agent, Device Mesh, distributed, Distributed Training, DTensor, FSDP2, fsdp2, Fully Sharded Data Parallel, lifecycle, Mixed Precision, Offload, pytorch, PyTorch, Sharded Checkpointing, skill.md, Torch Distributed, training
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/08-distributed-training/pytorch-fsdp2](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/08-distributed-training/pytorch-fsdp2)
 - 下载命令：
 
@@ -880,7 +1326,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.
-- 标签：Distributed, Embeddings, HNSW, lifecycle, Production, qdrant, Qdrant, rag, RAG, Semantic Search, Similarity Search, skill.md, Vector Search
+- 标签：Distributed, Embeddings, HNSW, lifecycle, Production, Qdrant, qdrant, rag, RAG, Semantic Search, Similarity Search, skill.md, Vector Search
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/15-rag/qdrant](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/15-rag/qdrant)
 - 下载命令：
 
@@ -940,7 +1386,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.
-- 标签：anything, arXiv, Computer Vision, fine-tuning, Image Segmentation, lifecycle, Multimodal, multimodal, SAM, segment, skill.md, Zero-Shot
+- 标签：anything, arXiv, Computer Vision, fine-tuning, Image Segmentation, lifecycle, multimodal, Multimodal, SAM, segment, skill.md, Zero-Shot
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/segment-anything](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/segment-anything)
 - 下载命令：
 
@@ -964,7 +1410,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Language-independent tokenizer treating text as raw Unicode. Supports BPE and Unigram algorithms. Fast (50k sentences/sec), lightweight (6MB memory), deterministic vocabulary. Used by T5, ALBERT, XLNet, mBART. Train on raw text without pre-tokenization. Use wh
-- 标签：arXiv, BPE, CJK Languages, Deterministic, Google, Language-Independent, lifecycle, Multilingual, RAG, SentencePiece, sentencepiece, skill.md, Tokenization, tokenization, Unicode, Unigram
+- 标签：arXiv, BPE, CJK Languages, Deterministic, Google, Language-Independent, lifecycle, Multilingual, RAG, SentencePiece, sentencepiece, skill.md, tokenization, Tokenization, Unicode, Unigram
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/02-tokenization/sentencepiece](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/02-tokenization/sentencepiece)
 - 下载命令：
 
@@ -976,7 +1422,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Supports OpenAI-compatible endpoints, quantization
-- 标签：Continuous Batching, High Throughput, inference, Inference Serving, lifecycle, LLM, OpenAI API, PagedAttention, Production, Quantization, serving, skill.md, Tensor Parallelism, vLLM, vllm
+- 标签：Continuous Batching, High Throughput, inference, Inference Serving, lifecycle, LLM, OpenAI API, PagedAttention, Production, Quantization, serving, skill.md, Tensor Parallelism, vllm, vLLM
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/12-inference-serving/vllm](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/12-inference-serving/vllm)
 - 下载命令：
 
@@ -1000,7 +1446,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training tha
-- 标签：alignment, Alignment, arXiv, DPO Alternative, Efficient Training, lifecycle, LLM, LLM Alignment, post, Post-Training, Preference Optimization, Reference-Free, simpo, SimPO, skill.md, training
+- 标签：Alignment, alignment, arXiv, DPO Alternative, Efficient Training, lifecycle, LLM, LLM Alignment, post, Post-Training, Preference Optimization, Reference-Free, SimPO, simpo, skill.md, training
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/06-post-training/simpo](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/06-post-training/simpo)
 - 下载命令：
 
@@ -1012,7 +1458,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Multi-cloud orchestration for ML workloads with automatic cost optimization. Use when you need to run training or batch jobs across multiple clouds, leverage spot instances with auto-recovery, or optimize GPU costs across providers.
-- 标签：Cost Optimization, fine-tuning, GPU, infrastructure, Infrastructure, lifecycle, LLM, Multi-Cloud, Orchestration, RAG, skill.md, skypilot, SkyPilot
+- 标签：Cost Optimization, fine-tuning, GPU, Infrastructure, infrastructure, lifecycle, LLM, Multi-Cloud, Orchestration, RAG, skill.md, skypilot, SkyPilot
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/09-infrastructure/skypilot](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/09-infrastructure/skypilot)
 - 下载命令：
 
@@ -1060,7 +1506,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.
-- 标签：Computer Vision, Diffusers, diffusion, fine-tuning, Image Generation, lifecycle, LoRA, Multimodal, multimodal, skill.md, stable, Stable Diffusion, Text-to-Image
+- 标签：Computer Vision, Diffusers, diffusion, fine-tuning, Image Generation, lifecycle, LoRA, multimodal, Multimodal, skill.md, stable, Stable Diffusion, Text-to-Image
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/stable-diffusion](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/stable-diffusion)
 - 下载命令：
 
@@ -1084,7 +1530,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit
-- 标签：Experiment Tracking, lifecycle, MLOps, mlops, Model Debugging, Performance Profiling, PyTorch, skill.md, TensorBoard, tensorboard, TensorFlow, Training Metrics, Visualization, visualization
+- 标签：Experiment Tracking, lifecycle, mlops, MLOps, Model Debugging, Performance Profiling, PyTorch, skill.md, tensorboard, TensorBoard, TensorFlow, Training Metrics, Visualization, visualization
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/13-mlops/tensorboard](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/13-mlops/tensorboard)
 - 下载命令：
 
@@ -1144,7 +1590,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization
-- 标签：Fast Training, fine, fine-tuning, Fine-Tuning, Gemma, lifecycle, Llama, LLM, LoRA, Memory-Efficient, Mistral, Optimization, QLoRA, Qwen, skill.md, tuning, unsloth, Unsloth
+- 标签：Fast Training, fine, Fine-Tuning, fine-tuning, Gemma, lifecycle, Llama, LLM, LoRA, Memory-Efficient, Mistral, Optimization, QLoRA, Qwen, skill.md, tuning, Unsloth, unsloth
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/unsloth](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/03-fine-tuning/unsloth)
 - 下载命令：
 
@@ -1180,7 +1626,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 
 - 集合：`ai-research-skills`
 - 简介：OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or mult
-- 标签：arXiv, ASR, Audio Processing, lifecycle, Multilingual, Multimodal, multimodal, OpenAI, RAG, skill.md, Speech Recognition, Speech-To-Text, Transcription, Translation, Whisper, whisper
+- 标签：arXiv, ASR, Audio Processing, lifecycle, Multilingual, multimodal, Multimodal, OpenAI, RAG, skill.md, Speech Recognition, Speech-To-Text, Transcription, Translation, whisper, Whisper
 - GitHub：[skills/ai-research-lifecycle/ai-research-skills/18-multimodal/whisper](https://github.com/guohui11/research-tools/tree/main/skills/ai-research-lifecycle/ai-research-skills/18-multimodal/whisper)
 - 下载命令：
 
@@ -1189,102 +1635,6 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/ai-research-l
 ```
 
 ## biomedical-research
-
-### Adaptyv
-
-- 集合：`openclaw-medical-skills`
-- 简介：Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence opti
-- 标签：adaptyv, biomedical, medical, openclaw, protein, skill.md
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/adaptyv](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/adaptyv)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/adaptyv
-```
-
-### ADHD Daily Planner
-
-- 集合：`openclaw-medical-skills`
-- 简介：Time-blind friendly planning, executive function support, and daily structure for ADHD brains. Specializes in realistic time estimation, dopamine-aware task design, and building systems that
-- 标签：adhd, biomedical, daily, medical, openclaw, planner, skill.md
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/adhd-daily-planner](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/adhd-daily-planner)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/adhd-daily-planner
-```
-
-### Aeon Time Series Machine Learning
-
-- 集合：`openclaw-medical-skills`
-- 简介：This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed ob
-- 标签：aeon, biomedical, evaluation, medical, openclaw, RAG, skill.md, visualization
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/aeon](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/aeon)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/aeon
-```
-
-### Browser Automation with agent-browser
-
-- 集合：`openclaw-medical-skills`
-- 简介：Browse the web for any task — research topics, read articles, interact with web apps, fill forms, take screenshots, extract data, and test web pages. Use whenever a browser would be useful, not just when the user explicitly asks.
-- 标签：agent, Agent, biomedical, browser, medical, openclaw, RAG, skill.md
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/agent-browser](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/agent-browser)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/agent-browser
-```
-
-### AI健康分析器
-
-- 集合：`openclaw-medical-skills`
-- 简介：AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
-- 标签：analyzer, biomedical, medical, openclaw, skill.md
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/ai-analyzer](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/ai-analyzer)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/ai-analyzer
-```
-
-### AlphaFold2 Structure Validation
-
-- 集合：`openclaw-medical-skills`
-- 简介：>
-- 标签：alphafold, biomedical, medical, openclaw, protein, reference, skill.md, structure-prediction, validation
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/alphafold](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/alphafold)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/alphafold
-```
-
-### AlphaFold Database
-
-- 集合：`openclaw-medical-skills`
-- 简介：Access AlphaFold's 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology.
-- 标签：alphafold, biomedical, database, drug, medical, openclaw, protein, RAG, skill.md, visualization
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/alphafold-database](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/alphafold-database)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/alphafold-database
-```
-
-### AnnData
-
-- 集合：`openclaw-medical-skills`
-- 简介：This skill should be used when working with annotated data matrices in Python, particularly for single-cell genomics analysis, managing experimental measurements with metadata, or handling large-scale biological datasets. Use when tasks involve AnnData objects
-- 标签：alignment, anndata, biomedical, genomics, medical, openclaw, protein, RAG, single-cell, skill.md, visualization
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/anndata](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/anndata)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/anndata
-```
 
 ### Arboreto
 
@@ -1302,7 +1652,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：Search arXiv physics, math, and computer science preprints using natural language queries. Powered by Valyu semantic search.
-- 标签：arXiv, arxiv, biomedical, medical, openclaw, RAG, search, skill.md
+- 标签：arxiv, arXiv, biomedical, medical, openclaw, RAG, search, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/arxiv-search](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/arxiv-search)
 - 下载命令：
 
@@ -4589,30 +4939,6 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 ### COPYRIGHT NOTICE
 
 - 集合：`openclaw-medical-skills`
-- 简介：<!-- --> - read_file - run_shell_command The **AAV Vector Design Agent** provides AI-driven design of adeno-associated virus vectors for gene therapy applications. It covers capsid selection and engineering, promoter/enhancer design, transgene optimization, an
-- 标签：aav, agent, Agent, biomedical, clinical, design, medical, openclaw, protein, skill.md, vector
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/aav-vector-design-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/aav-vector-design-agent)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/aav-vector-design-agent
-```
-
-### COPYRIGHT NOTICE
-
-- 集合：`openclaw-medical-skills`
-- 简介：<!-- --> - read_file - run_shell_command - **description (10-20 chars):** Hypothesis foundry - `target_protein`, optional `reference_compound`, disease `indication`. - `constraints` dict (LogP, MW, TPSA, etc.) and `num_candidates`. 1. Ranked candidate list wit
-- 标签：Agent, agentd, biomedical, discovery, drug, medical, openclaw, protein, RAG, skill.md
-- GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/agentd-drug-discovery](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/agentd-drug-discovery)
-- 下载命令：
-
-```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-research/openclaw-medical-skills/skills/agentd-drug-discovery
-```
-
-### COPYRIGHT NOTICE
-
-- 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - antibody - antigen - FASTA - generation - validation - run_shell_command - read_file Run the MAGE antibody generation workflow to propose antigen-conditioned antibody sequences for downstream structural validation. 4. **Recommend validation:** Sugge
 - 标签：agent, antibody, biomedical, design, mage, medical, openclaw, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/antibody-design-agent/MAGE](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/antibody-design-agent/MAGE)
@@ -4626,7 +4952,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command This skill brings together cutting-edge tools for antibody engineering, including MAGE (Monoclonal Antibody Generator) and RFdiffusion for Antibodies. It enables the de novo design of antibodies against specific viral o
-- 标签：agent, Agent, antibody, biomedical, design, medical, openclaw, protein, skill.md
+- 标签：Agent, agent, antibody, biomedical, design, medical, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/antibody-design-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/antibody-design-agent)
 - 下载命令：
 
@@ -4638,7 +4964,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Armored CAR-T Design Agent** provides AI-assisted design of next-generation armored CAR-T cells engineered to express cytokines, chemokines, or other enhancing factors. These armored T cells overcome solid tumor c
-- 标签：agent, Agent, armored, biomedical, cart, clinical, design, medical, openclaw, skill.md, visualization
+- 标签：Agent, agent, armored, biomedical, cart, clinical, design, medical, openclaw, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/armored-cart-design-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/armored-cart-design-agent)
 - 下载命令：
 
@@ -4650,7 +4976,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - oncology - multimodal - H&E - biomarkers - NCCN - run_shell_command - web_fetch This skill implements the capabilities of the "Autonomous Clinical AI Agent" described in Nature Cancer (2025). It combines Large Language Models (LLMs) for reasoning wi
-- 标签：agent, Agent, autonomous, biomedical, clinical, genomics, LLM, medical, oncology, openclaw, PubMed, skill.md
+- 标签：Agent, agent, autonomous, biomedical, clinical, genomics, LLM, medical, oncology, openclaw, PubMed, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/autonomous-oncology-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/autonomous-oncology-agent)
 - 下载命令：
 
@@ -6726,7 +7052,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command - **description (10-20 chars):** Omni bio agent 4. **Execute notebooks/scripts:** Use `repo/tutorials` or CLI entrypoints to run pipelines; log tool versions. - Respect tool/data licenses when selecting Light vs Commerc
-- 标签：agent, Agent, biomedical, biomni, general, medical, openclaw, skill.md
+- 标签：Agent, agent, biomedical, biomni, general, medical, openclaw, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/biomni-general-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/biomni-general-agent)
 - 下载命令：
 
@@ -6738,7 +7064,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - run_shell_command - web_fetch - python_repl - biomni - automation - biomedical - reasoning - tools A general-purpose biomedical AI agent capable of executing complex research workflows using over 150 tools and databases. Biomni is a "General-Purpose
-- 标签：agent, Agent, biomedical, biomni, drug, LoRA, medical, openclaw, protein, skill.md
+- 标签：Agent, agent, biomedical, biomni, drug, LoRA, medical, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/biomni-research-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/biomni-research-agent)
 - 下载命令：
 
@@ -6750,7 +7076,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Bone Marrow AI Agent** provides comprehensive AI-driven analysis of bone marrow aspirate and biopsy specimens. It performs automated cell identification, differential counting, morphological assessment, and patter
-- 标签：agent, Agent, biomedical, bone, clinical, evaluation, marrow, medical, openclaw, skill.md
+- 标签：Agent, agent, biomedical, bone, clinical, evaluation, marrow, medical, openclaw, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/bone-marrow-ai-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/bone-marrow-ai-agent)
 - 下载命令：
 
@@ -6762,7 +7088,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Cancer Metabolism Agent** analyzes tumor metabolic reprogramming to identify vulnerabilities for therapeutic targeting. It integrates metabolomics, transcriptomics, and flux analysis to characterize Warburg effect
-- 标签：agent, Agent, biomedical, cancer, clinical, drug, medical, metabolism, openclaw, skill.md
+- 标签：Agent, agent, biomedical, cancer, clinical, drug, medical, metabolism, openclaw, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cancer-metabolism-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cancer-metabolism-agent)
 - 下载命令：
 
@@ -6786,7 +7112,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **CAR-T Design Optimizer Agent** provides end-to-end AI-guided design of chimeric antigen receptor T-cells. It integrates antigen prioritization, safety-constrained CAR architectures, exhaustion resistance engineeri
-- 标签：agent, Agent, biomedical, cart, clinical, design, LLM, medical, openclaw, optimizer, protein, skill.md
+- 标签：Agent, agent, biomedical, cart, clinical, design, LLM, medical, openclaw, optimizer, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cart-design-optimizer-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cart-design-optimizer-agent)
 - 下载命令：
 
@@ -6810,7 +7136,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Cell-Free RNA Analysis Agent** provides comprehensive analysis of circulating cell-free RNA (cfRNA) from plasma and other biofluids for cancer detection, tissue-of-origin identification, and non-invasive transcrip
-- 标签：agent, Agent, alignment, biomedical, cellfree, clinical, genomics, medical, openclaw, protein, RAG, rna, single-cell, skill.md
+- 标签：Agent, agent, alignment, biomedical, cellfree, clinical, genomics, medical, openclaw, protein, RAG, rna, single-cell, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cellfree-rna-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cellfree-rna-agent)
 - 下载命令：
 
@@ -6822,7 +7148,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Cellular Senescence Agent** provides comprehensive AI-driven analysis of cellular senescence signatures for aging research, cancer biology, and senolytic therapeutic development. * When identifying senescent cells
-- 标签：agent, Agent, biomedical, cellular, clinical, drug, medical, openclaw, senescence, single-cell, skill.md
+- 标签：Agent, agent, biomedical, cellular, clinical, drug, medical, openclaw, senescence, single-cell, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cellular-senescence-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cellular-senescence-agent)
 - 下载命令：
 
@@ -6882,7 +7208,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - chemistry - synthesis - molecules - reaction - lab-automation - run_shell_command - read_file - write_file The Chemistry Agent is a specialized module for autonomous chemical reasoning, synthesis planning, and property prediction. It integrates with
-- 标签：agent, Agent, biomedical, chemistry, medical, openclaw, skill.md
+- 标签：Agent, agent, biomedical, chemistry, medical, openclaw, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/chemistry-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/chemistry-agent)
 - 下载命令：
 
@@ -6894,7 +7220,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **CHIP Clonal Hematopoiesis Agent** provides comprehensive detection and risk stratification of clonal hematopoiesis of indeterminate potential (CHIP). It identifies clonal mutations in blood cells, assesses risk of
-- 标签：agent, Agent, biomedical, chip, clinical, clonal, hematopoiesis, medical, openclaw, protein, skill.md
+- 标签：Agent, agent, biomedical, chip, clinical, clonal, hematopoiesis, medical, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/chip-clonal-hematopoiesis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/chip-clonal-hematopoiesis-agent)
 - 下载命令：
 
@@ -6906,7 +7232,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Chromosomal Instability Agent** analyzes CIN signatures to predict cancer prognosis, immunotherapy response, and therapeutic vulnerabilities. It integrates copy number alterations, aneuploidy scores, and CIN-relat
-- 标签：agent, Agent, biomedical, chromosomal, clinical, drug, instability, medical, openclaw, skill.md
+- 标签：Agent, agent, biomedical, chromosomal, clinical, drug, instability, medical, openclaw, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/chromosomal-instability-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/chromosomal-instability-agent)
 - 下载命令：
 
@@ -6954,7 +7280,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **CNV Caller Agent** provides comprehensive AI-enhanced copy number variation analysis from WGS, WES, and targeted sequencing for cancer genomics and constitutional CNV detection. * When calling somatic CNVs from tu
-- 标签：agent, Agent, biomedical, caller, cnv, genomics, medical, openclaw, RAG, single-cell, skill.md
+- 标签：Agent, agent, biomedical, caller, cnv, genomics, medical, openclaw, RAG, single-cell, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cnv-caller-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cnv-caller-agent)
 - 下载命令：
 
@@ -6966,7 +7292,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Coagulation and Thrombosis Agent** provides AI-driven analysis of hemostatic disorders, thrombosis risk assessment, and anticoagulation management. It integrates coagulation cascade modeling, platelet function ana
-- 标签：agent, Agent, biomedical, clinical, coagulation, genomics, medical, openclaw, skill.md, thrombosis
+- 标签：Agent, agent, biomedical, clinical, coagulation, genomics, medical, openclaw, skill.md, thrombosis
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/coagulation-thrombosis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/coagulation-thrombosis-agent)
 - 下载命令：
 
@@ -6990,7 +7316,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - wsi - digital-pathology - deep-learning - resnet - openslide - run_shell_command - read_file - write_file This agent specializes in the analysis of Whole Slide Images (WSIs) for digital pathology. It leverages Deep Learning models (ResNet, ViT, Hove
-- 标签：agent, Agent, biomedical, computational, medical, openclaw, pathology, RAG, skill.md
+- 标签：Agent, agent, biomedical, computational, medical, openclaw, pathology, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/computational-pathology-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/computational-pathology-agent)
 - 下载命令：
 
@@ -7026,7 +7352,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Cryo-EM AI Drug Design Agent** integrates cryo-electron microscopy structural data with AlphaFold3, generative AI, and molecular dynamics for structure-based drug design. It enables targeting of previously "undrug
-- 标签：agent, Agent, biomedical, cryoem, design, drug, medical, openclaw, protein, RAG, skill.md
+- 标签：Agent, agent, biomedical, cryoem, design, drug, medical, openclaw, protein, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cryoem-ai-drug-design-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cryoem-ai-drug-design-agent)
 - 下载命令：
 
@@ -7038,7 +7364,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **ctDNA Dynamics MRD Agent** provides comprehensive analysis of circulating tumor DNA dynamics for molecular residual disease (MRD) detection, treatment response monitoring, and early relapse prediction. It integrat
-- 标签：agent, Agent, biomedical, clinical, ctdna, dynamics, medical, mrd, openclaw, RAG, skill.md, visualization
+- 标签：Agent, agent, biomedical, clinical, ctdna, dynamics, medical, mrd, openclaw, RAG, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/ctdna-dynamics-mrd-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/ctdna-dynamics-mrd-agent)
 - 下载命令：
 
@@ -7050,7 +7376,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Cytokine Storm Analysis Agent** provides comprehensive AI-driven analysis of cytokine release syndrome (CRS) and hyperinflammatory states. It integrates cytokine profiling, clinical parameters, and immunological m
-- 标签：agent, Agent, analysis, biomedical, clinical, cytokine, evaluation, medical, openclaw, skill.md, storm
+- 标签：Agent, agent, analysis, biomedical, clinical, cytokine, evaluation, medical, openclaw, skill.md, storm
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/cytokine-storm-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/cytokine-storm-analysis-agent)
 - 下载命令：
 
@@ -7098,7 +7424,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Deep Visual Proteomics Agent** implements the Deep Visual Proteomics (DVP) workflow that combines AI-driven image analysis of cellular phenotypes with automated laser microdissection and ultra-high-sensitivity mas
-- 标签：agent, Agent, biomedical, clinical, deep, drug, medical, openclaw, protein, proteomics, single-cell, skill.md, visual
+- 标签：Agent, agent, biomedical, clinical, deep, drug, medical, openclaw, protein, proteomics, single-cell, skill.md, visual
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/deep-visual-proteomics-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/deep-visual-proteomics-agent)
 - 下载命令：
 
@@ -7110,7 +7436,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Digital Twin Clinical Agent** creates AI-powered virtual replicas of individual patients by integrating genomics, imaging, wearable data, and clinical records. These digital twins enable clinical trial simulation,
-- 标签：agent, Agent, biomedical, clinical, digital, drug, evaluation, genomics, medical, openclaw, skill.md, twin, visualization
+- 标签：Agent, agent, biomedical, clinical, digital, drug, evaluation, genomics, medical, openclaw, skill.md, twin, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/digital-twin-clinical-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/digital-twin-clinical-agent)
 - 下载命令：
 
@@ -7146,7 +7472,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Epigenomics MethylGPT Agent** leverages foundation models for comprehensive DNA methylation analysis. It integrates MethylGPT and DiffuCpG for methylation profiling, differential methylation region (DMR) detection
-- 标签：agent, Agent, bioinformatics, biomedical, epigenomics, genomics, medical, methylgpt, openclaw, RAG, single-cell, skill.md
+- 标签：Agent, agent, bioinformatics, biomedical, epigenomics, genomics, medical, methylgpt, openclaw, RAG, single-cell, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/epigenomics-methylgpt-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/epigenomics-methylgpt-agent)
 - 下载命令：
 
@@ -7158,7 +7484,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Exosome/EV Analysis Agent** provides comprehensive AI-driven analysis of extracellular vesicles for cancer biomarker discovery, liquid biopsy applications, and tumor-microenvironment communication profiling. * Whe
-- 标签：agent, Agent, analysis, biomedical, clinical, drug, exosome, medical, openclaw, protein, skill.md
+- 标签：Agent, agent, analysis, biomedical, clinical, drug, exosome, medical, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/exosome-ev-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/exosome-ev-analysis-agent)
 - 下载命令：
 
@@ -7182,7 +7508,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Gene Panel Design Agent** provides AI-driven design of targeted sequencing panels for clinical diagnostics, cancer profiling, pharmacogenomics, and research applications. * When designing custom gene panels for cl
-- 标签：agent, Agent, alignment, biomedical, clinical, design, gene, genomics, medical, openclaw, panel, RAG, skill.md
+- 标签：Agent, agent, alignment, biomedical, clinical, design, gene, genomics, medical, openclaw, panel, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/gene-panel-design-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/gene-panel-design-agent)
 - 下载命令：
 
@@ -7194,7 +7520,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Hemoglobinopathy Analysis Agent** provides comprehensive AI-driven analysis of hemoglobin disorders. It integrates HPLC chromatograms, electrophoresis patterns, CBC parameters, and molecular genetics for diagnosis
-- 标签：agent, Agent, analysis, biomedical, clinical, genomics, hemoglobinopathy, medical, openclaw, protein, skill.md
+- 标签：Agent, agent, analysis, biomedical, clinical, genomics, hemoglobinopathy, medical, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/hemoglobinopathy-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/hemoglobinopathy-analysis-agent)
 - 下载命令：
 
@@ -7206,7 +7532,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **HRD Analysis Agent** provides comprehensive analysis of homologous recombination deficiency for predicting response to PARP inhibitors and platinum chemotherapy. It integrates genomic scarring signatures (LOH, TAI
-- 标签：agent, Agent, analysis, biomedical, clinical, drug, hrd, medical, openclaw, skill.md
+- 标签：Agent, agent, analysis, biomedical, clinical, drug, hrd, medical, openclaw, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/hrd-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/hrd-analysis-agent)
 - 下载命令：
 
@@ -7218,7 +7544,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Immune Checkpoint Combination Agent** analyzes tumor molecular profiles to predict optimal immune checkpoint inhibitor (ICI) combinations. It integrates TME characterization, checkpoint expression, resistance mech
-- 标签：agent, Agent, biomedical, checkpoint, clinical, combination, immune, medical, openclaw, RAG, skill.md
+- 标签：Agent, agent, biomedical, checkpoint, clinical, combination, immune, medical, openclaw, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/immune-checkpoint-combination-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/immune-checkpoint-combination-agent)
 - 下载命令：
 
@@ -7278,7 +7604,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - liquid-biopsy - ctdna - mrd - cancer-detection - treatment-response - read_file - run_shell_command The **Liquid Biopsy Analytics Agent** provides comprehensive AI-driven analysis of blood-based cancer biomarkers. It integrates circulating tumor DNA
-- 标签：agent, Agent, analytics, biomedical, biopsy, clinical, liquid, medical, openclaw, protein, RAG, skill.md
+- 标签：Agent, agent, analytics, biomedical, biopsy, clinical, liquid, medical, openclaw, protein, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/liquid-biopsy-analytics-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/liquid-biopsy-analytics-agent)
 - 下载命令：
 
@@ -7290,7 +7616,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Long-Read Sequencing Agent** provides comprehensive AI-driven analysis of long-read sequencing data from PacBio (HiFi) and Oxford Nanopore (ONT) platforms. It enables structural variant detection, full-length isof
-- 标签：agent, Agent, alignment, biomedical, clinical, genomics, long, medical, openclaw, read, sequencing, skill.md
+- 标签：Agent, agent, alignment, biomedical, clinical, genomics, long, medical, openclaw, read, sequencing, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/long-read-sequencing-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/long-read-sequencing-agent)
 - 下载命令：
 
@@ -7314,7 +7640,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Microbiome-Cancer Interaction Agent** analyzes relationships between the microbiome and cancer, including tumor-associated bacteria, gut microbiome effects on immunotherapy, and microbiome-targeted therapeutic str
-- 标签：agent, Agent, biomedical, cancer, clinical, drug, genomics, medical, microbiome, openclaw, RAG, skill.md
+- 标签：Agent, agent, biomedical, cancer, clinical, drug, genomics, medical, microbiome, openclaw, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/microbiome-cancer-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/microbiome-cancer-agent)
 - 下载命令：
 
@@ -7326,7 +7652,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Molecular Glue Discovery Agent** enables AI-driven discovery of molecular glue degraders that induce protein-protein interactions between E3 ligases and neo-substrates for targeted protein degradation. Unlike PROT
-- 标签：agent, Agent, biomedical, clinical, discovery, drug, glue, medical, molecular, openclaw, protein, skill.md
+- 标签：Agent, agent, biomedical, clinical, discovery, drug, glue, medical, molecular, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/molecular-glue-discovery-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/molecular-glue-discovery-agent)
 - 下载命令：
 
@@ -7338,7 +7664,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Molecule Evolution Agent** acts as an autonomous medicinal chemist. It takes a starting molecule (or uses a default like Aspirin) and iteratively modifies its structure to optimize binding for a specific protein t
-- 标签：agent, Agent, biomedical, drug, evolution, LLM, medical, molecule, openclaw, protein, skill.md
+- 标签：Agent, agent, biomedical, drug, evolution, LLM, medical, molecule, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/molecule-evolution-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/molecule-evolution-agent)
 - 下载命令：
 
@@ -7350,7 +7676,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **MPN Progression Monitor Agent** provides comprehensive monitoring of myeloproliferative neoplasms (PV, ET, MF) for disease progression, treatment response, and transformation risk. It integrates molecular profilin
-- 标签：agent, Agent, biomedical, clinical, medical, monitor, mpn, openclaw, progression, skill.md, visualization
+- 标签：Agent, agent, biomedical, clinical, medical, monitor, mpn, openclaw, progression, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/mpn-progression-monitor-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/mpn-progression-monitor-agent)
 - 下载命令：
 
@@ -7374,7 +7700,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **MRD-EDGE Detection Agent** implements the MRD-EDGE (Enhanced Detection of ctDNA through Genomic Error suppression) deep learning algorithm for ultra-sensitive molecular residual disease detection. This AI-powered
-- 标签：agent, Agent, biomedical, clinical, detection, edge, medical, mrd, openclaw, RAG, skill.md, visualization
+- 标签：Agent, agent, biomedical, clinical, detection, edge, medical, mrd, openclaw, RAG, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/mrd-edge-detection-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/mrd-edge-detection-agent)
 - 下载命令：
 
@@ -7386,7 +7712,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Multi-Ancestry PRS Agent** provides AI-optimized polygenic risk score calculation designed to work across diverse ancestral populations. It addresses the critical limitation of European-biased GWAS by integrating
-- 标签：agent, Agent, ancestry, biomedical, clinical, drug, genomics, medical, multi, openclaw, prs, skill.md
+- 标签：Agent, agent, ancestry, biomedical, clinical, drug, genomics, medical, multi, openclaw, prs, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/multi-ancestry-prs-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/multi-ancestry-prs-agent)
 - 下载命令：
 
@@ -7410,7 +7736,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Multimodal Radpath Fusion Agent** integrates diverse clinical data sources including radiology imaging (CT, MRI, PET), digital pathology whole slide images, genomic profiling, and electronic health records using s
-- 标签：agent, Agent, alignment, biomedical, clinical, fusion, genomics, medical, multimodal, openclaw, radpath, skill.md
+- 标签：Agent, agent, alignment, biomedical, clinical, fusion, genomics, medical, multimodal, openclaw, radpath, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/multimodal-radpath-fusion-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/multimodal-radpath-fusion-agent)
 - 下载命令：
 
@@ -7422,7 +7748,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Myeloma MRD Agent** provides comprehensive AI-driven minimal residual disease assessment for multiple myeloma. It integrates next-generation flow cytometry (NGF), NGS-based clonotype tracking, and mass spectrometr
-- 标签：agent, Agent, biomedical, clinical, medical, mrd, myeloma, openclaw, protein, skill.md
+- 标签：Agent, agent, biomedical, clinical, medical, mrd, myeloma, openclaw, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/myeloma-mrd-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/myeloma-mrd-agent)
 - 下载命令：
 
@@ -7446,7 +7772,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Nicheformer Spatial Agent** leverages the Nicheformer foundation model, trained on over 53 million spatially resolved cells, to model cellular architecture and tissue microenvironments with unprecedented accuracy.
-- 标签：agent, Agent, biomedical, fine-tuning, genomics, medical, nicheformer, openclaw, RAG, single-cell, skill.md, spatial, visualization
+- 标签：Agent, agent, biomedical, fine-tuning, genomics, medical, nicheformer, openclaw, RAG, single-cell, skill.md, spatial, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/nicheformer-spatial-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/nicheformer-spatial-agent)
 - 下载命令：
 
@@ -7458,7 +7784,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **NK Cell Therapy Agent** provides AI-driven design and optimization of natural killer cell therapies for cancer treatment. It covers CAR-NK engineering, cytokine-induced memory-like (CIML) NK generation, KIR/HLA ma
-- 标签：agent, Agent, biomedical, cell, clinical, medical, openclaw, skill.md, therapy
+- 标签：Agent, agent, biomedical, cell, clinical, medical, openclaw, skill.md, therapy
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/nk-cell-therapy-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/nk-cell-therapy-agent)
 - 下载命令：
 
@@ -7470,7 +7796,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Opentrons Protocol Agent** bridges the gap between experimental design and physical execution by translating instructions into Opentrons Python API scripts. *   When you need to automate a liquid handling task (PC
-- 标签：agent, Agent, biomedical, LLM, medical, openclaw, opentrons, protocol, skill.md
+- 标签：Agent, agent, biomedical, LLM, medical, openclaw, opentrons, protocol, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/opentrons-protocol-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/opentrons-protocol-agent)
 - 下载命令：
 
@@ -7482,7 +7808,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Organoid Drug Response Agent** provides AI-driven analysis of patient-derived organoid (PDO) drug screening data for personalized treatment selection. It correlates organoid drug responses with patient outcomes an
-- 标签：agent, Agent, biomedical, clinical, drug, evaluation, medical, openclaw, organoid, response, skill.md
+- 标签：Agent, agent, biomedical, clinical, drug, evaluation, medical, openclaw, organoid, response, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/organoid-drug-response-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/organoid-drug-response-agent)
 - 下载命令：
 
@@ -7494,7 +7820,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Pan-Cancer Multi-Omics Agent** integrates multi-omics data across cancer types to identify shared oncogenic drivers, discover novel subtypes, and enable cross-cancer therapeutic insights. It leverages TCGA, CPTAC,
-- 标签：agent, Agent, biomedical, cancer, clinical, drug, medical, multiomics, openclaw, pan, protein, RAG, skill.md
+- 标签：Agent, agent, biomedical, cancer, clinical, drug, medical, multiomics, openclaw, pan, protein, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/pan-cancer-multiomics-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/pan-cancer-multiomics-agent)
 - 下载命令：
 
@@ -7506,7 +7832,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **PDX Model Analysis Agent** provides AI-driven analysis of patient-derived xenograft models for preclinical drug testing, translational research, and personalized oncology. It correlates PDX drug responses with pat
-- 标签：agent, Agent, analysis, biomedical, clinical, drug, medical, model, openclaw, pdx, RAG, skill.md
+- 标签：Agent, agent, analysis, biomedical, clinical, drug, medical, model, openclaw, pdx, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/pdx-model-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/pdx-model-analysis-agent)
 - 下载命令：
 
@@ -7518,7 +7844,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - pharmacogenomics - precision-dosing - cpic-guidelines - adverse-events - multi-omics - read_file - run_shell_command The **Pharmacogenomics Agent** integrates AI and multi-omics data to predict individual drug responses, optimize medication dosing,
-- 标签：agent, Agent, biomedical, clinical, drug, genomics, medical, openclaw, pharmacogenomics, RAG, skill.md
+- 标签：Agent, agent, biomedical, clinical, drug, genomics, medical, openclaw, pharmacogenomics, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/pharmacogenomics-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/pharmacogenomics-agent)
 - 下载命令：
 
@@ -7530,7 +7856,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **PopEVE Variant Predictor Agent** leverages the PopEVE deep learning model from Harvard Medical School to predict pathogenicity of genetic variants. PopEVE analyzes evolutionary conservation, protein structure, and
-- 标签：agent, Agent, alignment, biomedical, clinical, drug, genomics, medical, openclaw, popeve, predictor, protein, RAG, skill.md, variant
+- 标签：Agent, agent, alignment, biomedical, clinical, drug, genomics, medical, openclaw, popeve, predictor, protein, RAG, skill.md, variant
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/popeve-variant-predictor-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/popeve-variant-predictor-agent)
 - 下载命令：
 
@@ -7542,7 +7868,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command - **description (10-20 chars):** Tumor board copilot - `vcf_path` (hg38 preferred) plus optional CNV/fusion summaries. - `pathology_report` text for histology/grade/biomarkers. - `clinical_context` dict capturing tumor
-- 标签：agent, Agent, biomedical, clinical, genomics, medical, oncology, openclaw, precision, skill.md
+- 标签：Agent, agent, biomedical, clinical, genomics, medical, oncology, openclaw, precision, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/precision-oncology-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/precision-oncology-agent)
 - 下载命令：
 
@@ -7566,7 +7892,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **PROTAC Design Agent** provides AI-assisted design of Proteolysis Targeting Chimeras (PROTACs) for targeted protein degradation. It integrates machine learning for ternary complex prediction, linker design, E3 liga
-- 标签：agent, Agent, biomedical, clinical, design, drug, medical, openclaw, protac, protein, skill.md
+- 标签：Agent, agent, biomedical, clinical, design, drug, medical, openclaw, protac, protein, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/protac-design-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/protac-design-agent)
 - 下载命令：
 
@@ -7590,7 +7916,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **PRS-Net Deep Learning Agent** implements interpretable geometric deep learning for polygenic risk score prediction. PRS-Net models non-linear gene-gene interactions and biological network relationships to enhance
-- 标签：agent, Agent, biomedical, clinical, deep, drug, fine-tuning, genomics, learning, medical, net, openclaw, protein, prs, skill.md, visualization
+- 标签：Agent, agent, biomedical, clinical, deep, drug, fine-tuning, genomics, learning, medical, net, openclaw, protein, prs, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/prs-net-deep-learning-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/prs-net-deep-learning-agent)
 - 下载命令：
 
@@ -7614,7 +7940,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Radiomics Pathomics Fusion Agent** integrates multimodal medical imaging data from radiology (CT, MRI, PET) and digital pathology (H&E, IHC whole slide images) with clinical and genomic data using deep learning fu
-- 标签：agent, Agent, alignment, biomedical, clinical, fusion, genomics, medical, openclaw, pathomics, protein, radiomics, RAG, skill.md
+- 标签：Agent, agent, alignment, biomedical, clinical, fusion, genomics, medical, openclaw, pathomics, protein, radiomics, RAG, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/radiomics-pathomics-fusion-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/radiomics-pathomics-fusion-agent)
 - 下载命令：
 
@@ -7662,7 +7988,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **RNA Velocity Agent** analyzes RNA velocity from single-cell RNA sequencing to predict cellular state transitions, differentiation trajectories, and dynamic transcriptional regulation. It implements velocyto, scVel
-- 标签：agent, Agent, biomedical, genomics, medical, openclaw, protein, RAG, rna, single-cell, skill.md, velocity, visualization
+- 标签：Agent, agent, biomedical, genomics, medical, openclaw, protein, RAG, rna, single-cell, skill.md, velocity, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/rna-velocity-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/rna-velocity-agent)
 - 下载命令：
 
@@ -7674,7 +8000,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **scFoundation Model Agent** provides a unified interface to leverage state-of-the-art single-cell foundation models for diverse downstream tasks. It integrates scGPT, scBERT, Geneformer, scFoundation, and emerging
-- 标签：agent, Agent, biomedical, drug, fine-tuning, genomics, medical, model, openclaw, RAG, scfoundation, single-cell, skill.md
+- 标签：Agent, agent, biomedical, drug, fine-tuning, genomics, medical, model, openclaw, RAG, scfoundation, single-cell, skill.md
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/scfoundation-model-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/scfoundation-model-agent)
 - 下载命令：
 
@@ -7722,7 +8048,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **SIMO Multiomics Integration Agent** performs spatial integration of multi-omics datasets through probabilistic alignment. Unlike previous tools limited to transcriptomics, SIMO integrates spatial transcriptomics w
-- 标签：agent, Agent, alignment, biomedical, genomics, integration, medical, multiomics, openclaw, protein, simo, single-cell, skill.md, visualization
+- 标签：Agent, agent, alignment, biomedical, genomics, integration, medical, multiomics, openclaw, protein, simo, single-cell, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/simo-multiomics-integration-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/simo-multiomics-integration-agent)
 - 下载命令：
 
@@ -7734,7 +8060,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command SpatialAgent focuses on the biological interpretation of spatial transcriptomics data, specifically aiming to propose mechanistic hypotheses about tissue organization and cellular interactions. *   **Mechanistic Interpr
-- 标签：agent, Agent, biomedical, medical, openclaw, skill.md, spatial
+- 标签：Agent, agent, biomedical, medical, openclaw, skill.md, spatial
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/spatial-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/spatial-agent)
 - 下载命令：
 
@@ -7746,7 +8072,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Spatial Epigenomics Agent** analyzes spatial epigenomic data combining chromatin accessibility (ATAC-seq), histone modifications (CUT&Tag), and DNA methylation with spatial coordinates. It maps regulatory landscap
-- 标签：agent, Agent, alignment, biomedical, epigenomics, genomics, medical, openclaw, RAG, single-cell, skill.md, spatial
+- 标签：Agent, agent, alignment, biomedical, epigenomics, genomics, medical, openclaw, RAG, single-cell, skill.md, spatial
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/spatial-epigenomics-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/spatial-epigenomics-agent)
 - 下载命令：
 
@@ -7758,7 +8084,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - spatial - h5ad - H&E - clustering - SVG - run_shell_command - read_file - web_fetch Run STAgent to align histology images with expression matrices, perform clustering/SVG detection, and generate literature-backed spatial reports. - Analysis of Visiu
-- 标签：agent, Agent, biomedical, medical, openclaw, skill.md, spatial, transcriptomics
+- 标签：Agent, agent, biomedical, medical, openclaw, skill.md, spatial, transcriptomics
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/spatial-transcriptomics-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/spatial-transcriptomics-agent)
 - 下载命令：
 
@@ -7938,7 +8264,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **T-Cell Exhaustion Analysis Agent** provides comprehensive profiling of T-cell dysfunction states in cancer and chronic infection. It analyzes exhaustion signatures, identifies stem-like progenitor populations, cha
-- 标签：agent, Agent, analysis, biomedical, clinical, exhaustion, medical, openclaw, single-cell, skill.md, tcell
+- 标签：Agent, agent, analysis, biomedical, clinical, exhaustion, medical, openclaw, single-cell, skill.md, tcell
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tcell-exhaustion-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tcell-exhaustion-analysis-agent)
 - 下载命令：
 
@@ -7950,7 +8276,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **TCR-pMHC Prediction Agent** predicts T-cell receptor interactions with peptide-MHC complexes using AlphaFold3-based structural modeling and deep learning. Accurate TCR-pMHC prediction enables therapeutic TCR disco
-- 标签：agent, Agent, biomedical, clinical, fine-tuning, MCP, medical, openclaw, pmhc, prediction, skill.md, tcr
+- 标签：Agent, agent, biomedical, clinical, fine-tuning, MCP, medical, openclaw, pmhc, prediction, skill.md, tcr
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tcr-pmhc-prediction-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tcr-pmhc-prediction-agent)
 - 下载命令：
 
@@ -7962,7 +8288,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **TCR Repertoire Analysis Agent** provides comprehensive T-cell receptor repertoire analysis for cancer immunology applications. It leverages deep learning and multi-layer machine learning approaches to analyze TCR
-- 标签：agent, Agent, analysis, biomedical, clinical, medical, openclaw, RAG, repertoire, single-cell, skill.md, tcr, visualization
+- 标签：Agent, agent, analysis, biomedical, clinical, medical, openclaw, RAG, repertoire, single-cell, skill.md, tcr, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tcr-repertoire-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tcr-repertoire-analysis-agent)
 - 下载命令：
 
@@ -7974,7 +8300,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Time-Resolved Cryo-EM Agent** leverages time-resolved cryo-electron microscopy to capture protein dynamics, drug-binding kinetics, and conformational transitions. It integrates AI-powered analysis with experimenta
-- 标签：agent, Agent, biomedical, cryoem, drug, medical, openclaw, protein, RAG, resolved, skill.md, time
+- 标签：Agent, agent, biomedical, cryoem, drug, medical, openclaw, protein, RAG, resolved, skill.md, time
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/time-resolved-cryoem-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/time-resolved-cryoem-agent)
 - 下载命令：
 
@@ -7986,7 +8312,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **TME Immune Profiling Agent** provides comprehensive tumor microenvironment (TME) immune profiling by integrating multiple data modalities including bulk RNA-seq deconvolution, single-cell transcriptomics, spatial
-- 标签：agent, Agent, biomedical, clinical, genomics, immune, MCP, medical, openclaw, profiling, single-cell, skill.md, tme, visualization
+- 标签：Agent, agent, biomedical, clinical, genomics, immune, MCP, medical, openclaw, profiling, single-cell, skill.md, tme, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tme-immune-profiling-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tme-immune-profiling-agent)
 - 下载命令：
 
@@ -7998,7 +8324,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **TPD Ternary Complex Agent** specializes in predicting and modeling ternary complex formation for targeted protein degradation (TPD). It uses AlphaFold-Multimer, molecular dynamics, and deep learning to model Prote
-- 标签：agent, Agent, biomedical, complex, drug, medical, openclaw, protein, skill.md, ternary, tpd
+- 标签：Agent, agent, biomedical, complex, drug, medical, openclaw, protein, skill.md, ternary, tpd
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tpd-ternary-complex-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tpd-ternary-complex-agent)
 - 下载命令：
 
@@ -8010,7 +8336,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command - **description (10-20 chars):** Trial triage hub - `trial_id` (NCT or sponsor ID) plus protocol text if not public. - `patient_summary` narrative and optional `patient_structured` FHIR bundle. - Declare data sources us
-- 标签：agent, Agent, biomedical, clinical, eligibility, LLM, medical, openclaw, skill.md, trial
+- 标签：Agent, agent, biomedical, clinical, eligibility, LLM, medical, openclaw, skill.md, trial
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/trial-eligibility-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/trial-eligibility-agent)
 - 下载命令：
 
@@ -8034,7 +8360,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Tumor Clonal Evolution Agent** analyzes intratumoral heterogeneity (ITH), reconstructs tumor phylogenies, and tracks clonal dynamics over time. It integrates multi-region sequencing data, longitudinal liquid biops
-- 标签：agent, Agent, biomedical, clinical, clonal, evolution, medical, openclaw, skill.md, tumor
+- 标签：Agent, agent, biomedical, clinical, clonal, evolution, medical, openclaw, skill.md, tumor
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tumor-clonal-evolution-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tumor-clonal-evolution-agent)
 - 下载命令：
 
@@ -8046,7 +8372,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Tumor Heterogeneity Agent** provides comprehensive analysis of intratumor heterogeneity (ITH) for understanding clonal architecture, tracking subclonal evolution, and predicting therapy resistance. It integrates m
-- 标签：agent, Agent, biomedical, clinical, drug, heterogeneity, medical, openclaw, single-cell, skill.md, tumor, visualization
+- 标签：Agent, agent, biomedical, clinical, drug, heterogeneity, medical, openclaw, single-cell, skill.md, tumor, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tumor-heterogeneity-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tumor-heterogeneity-agent)
 - 下载命令：
 
@@ -8058,7 +8384,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - tmb - immunotherapy - biomarker - harmonization - oncology - read_file - run_shell_command The **Tumor Mutational Burden Agent** provides comprehensive TMB analysis for immunotherapy response prediction. It harmonizes TMB calculation across differen
-- 标签：agent, Agent, biomedical, burden, clinical, medical, mutational, openclaw, RAG, skill.md, tumor
+- 标签：Agent, agent, biomedical, burden, clinical, medical, mutational, openclaw, RAG, skill.md, tumor
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/tumor-mutational-burden-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/tumor-mutational-burden-agent)
 - 下载命令：
 
@@ -8274,7 +8600,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - read_file - run_shell_command The **Virtual Lab Agent** orchestrates AI-powered virtual scientific research teams consisting of specialized agents (Principal Investigator, Immunologist, Computational Biologist, Machine Learning Specialist) to autono
-- 标签：agent, Agent, bioinformatics, biomedical, clinical, drug, genomics, lab, LLM, medical, openclaw, protein, PubMed, single-cell, skill.md, virtual, visualization
+- 标签：Agent, agent, bioinformatics, biomedical, clinical, drug, genomics, lab, LLM, medical, openclaw, protein, PubMed, single-cell, skill.md, virtual, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/virtual-lab-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/virtual-lab-agent)
 - 下载命令：
 
@@ -8286,7 +8612,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：<!-- --> - wearable - sensor-data - health-monitoring - anomaly-detection - longitudinal-analysis - run_shell_command - read_file The **Wearable Analysis Agent** processes data from consumer health devices (Apple Watch, Fitbit, Oura) to monitor vital signs, de
-- 标签：agent, Agent, analysis, biomedical, medical, openclaw, skill.md, wearable
+- 标签：Agent, agent, analysis, biomedical, medical, openclaw, skill.md, wearable
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/wearable-analysis-agent](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/wearable-analysis-agent)
 - 下载命令：
 
@@ -9270,7 +9596,7 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`openclaw-medical-skills`
 - 简介：Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, an
-- 标签：biomedical, clinical, drug, LaTeX, latex, medical, openclaw, posters, RAG, skill.md, visualization
+- 标签：biomedical, clinical, drug, latex, LaTeX, medical, openclaw, posters, RAG, skill.md, visualization
 - GitHub：[skills/biomedical-research/openclaw-medical-skills/skills/latex-posters](https://github.com/guohui11/research-tools/tree/main/skills/biomedical-research/openclaw-medical-skills/skills/latex-posters)
 - 下载命令：
 
@@ -11960,12 +12286,12 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/biomedical-re
 
 - 集合：`scientific-agent-skills`
 - 简介：How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval. Use this skill whenever the user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments, BLI/SPR assays, therm
-- 标签：adaptyv, agent, protein, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/adaptyv](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/adaptyv)
+- 标签：adaptyv, agent, LLM, protein, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/adaptyv](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/adaptyv)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/adaptyv
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/adaptyv
 ```
 
 ### Aeon Time Series Machine Learning
@@ -11973,11 +12299,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed ob
 - 标签：aeon, agent, evaluation, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/aeon](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/aeon)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/aeon](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/aeon)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/aeon
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/aeon
 ```
 
 ### AnnData
@@ -11985,11 +12311,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population
 - 标签：agent, alignment, anndata, genomics, protein, RAG, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/anndata](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/anndata)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/anndata](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/anndata)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/anndata
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/anndata
 ```
 
 ### Arboreto
@@ -11997,71 +12323,71 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory
 - 标签：agent, arboreto, scientific, single-cell, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/arboreto](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/arboreto)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/arboreto](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/arboreto)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/arboreto
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/arboreto
 ```
 
 ### Astropy
 
 - 集合：`scientific-agent-skills`
-- 简介：Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (W
+- 简介：Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems, WCS, and cosmology. Use when implementing or debugging astronomical data analysis code with Astropy.
 - 标签：agent, astropy, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/astropy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/astropy)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/astropy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/astropy)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/astropy
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/astropy
 ```
 
 ### autoskill
 
 - 集合：`scientific-agent-skills`
 - 简介：Observe the user's screen via screenpipe, detect repeated research workflows, match them against existing scientific-agent-skills, and draft new skills (or composition recipes that chain existing ones) for the patterns not yet covered. Use when the user asks t
-- 标签：agent, Agent, autoskill, LLM, PubMed, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/autoskill](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/autoskill)
+- 标签：Agent, agent, autoskill, LLM, PubMed, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/autoskill](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/autoskill)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/autoskill
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/autoskill
 ```
 
 ### Benchling Integration
 
 - 集合：`scientific-agent-skills`
-- 简介：Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.
+- 简介：Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries. Use when automating lab data with benchling-sdk or the v2 API.
 - 标签：agent, benchling, integration, protein, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/benchling-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/benchling-integration)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/benchling-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/benchling-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/benchling-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/benchling-integration
 ```
 
 ### BGPT Paper Search
 
 - 集合：`scientific-agent-skills`
 - 简介：Search scientific papers and retrieve structured experimental data extracted from full-text studies via the BGPT MCP server. Returns 25+ fields per paper including methods, results, sample sizes, quality scores, and conclusions. Use for literature reviews, evi
-- 标签：agent, bgpt, clinical, MCP, paper, scientific, search, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/bgpt-paper-search](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/bgpt-paper-search)
+- 标签：Agent, agent, bgpt, clinical, MCP, paper, scientific, search, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/bgpt-paper-search](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/bgpt-paper-search)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/bgpt-paper-search
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/bgpt-paper-search
 ```
 
 ### Brain Imaging Data Structure (BIDS)
 
 - 集合：`scientific-agent-skills`
 - 简介：>
-- 标签：agent, Agent, bids, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/bids](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/bids)
+- 标签：Agent, agent, bids, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/bids](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/bids)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/bids
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/bids
 ```
 
 ### Biopython: Computational Molecular Biology in Python
@@ -12069,11 +12395,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick l
 - 标签：agent, alignment, bioinformatics, biopython, protein, PubMed, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/biopython](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/biopython)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/biopython](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/biopython)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/biopython
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/biopython
 ```
 
 ### BioServices
@@ -12081,11 +12407,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lo
 - 标签：agent, alignment, bioinformatics, bioservices, protein, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/bioservices](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/bioservices)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/bioservices](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/bioservices)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/bioservices
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/bioservices
+```
+
+### Bulk RNA-seq
+
+- 集合：`scientific-agent-skills`
+- 简介：End-to-end bulk RNA-seq orchestrator — takes raw FASTQ reads through QC and trimming (FastQC, fastp/Trim Galore), alignment and quantification (STAR, Salmon, featureCounts), assembles a gene-level counts matrix, then hands off to differential expression (pydes
+- 标签：agent, alignment, bulk, rnaseq, scientific, single-cell, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/bulk-rnaseq](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/bulk-rnaseq)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/bulk-rnaseq
 ```
 
 ### CZ CELLxGENE Census
@@ -12093,11 +12431,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your o
 - 标签：agent, cellxgene, census, genomics, LoRA, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/cellxgene-census](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/cellxgene-census)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/cellxgene-census](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/cellxgene-census)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/cellxgene-census
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/cellxgene-census
 ```
 
 ### Cirq - Quantum Computing with Python
@@ -12105,11 +12443,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qis
 - 标签：agent, cirq, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/cirq](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/cirq)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/cirq](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/cirq)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/cirq
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/cirq
 ```
 
 ### Citation Management
@@ -12117,11 +12455,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive citation management for academic research. Search Google Scholar and PubMed for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify
 - 标签：agent, arXiv, citation, clinical, drug, LaTeX, management, protein, PubMed, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/citation-management](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/citation-management)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/citation-management](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/citation-management)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/citation-management
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/citation-management
 ```
 
 ### Clinical Decision Support Documents
@@ -12129,11 +12467,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Generate professional clinical decision support (CDS) documents for pharmaceutical and clinical research settings, including patient cohort analyses (biomarker-stratified with outcomes) and treatment recommendation reports (evidence-based guidelines with decis
 - 标签：agent, alignment, clinical, decision, drug, LaTeX, LoRA, RAG, scientific, skill.md, support, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/clinical-decision-support](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/clinical-decision-support)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/clinical-decision-support](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/clinical-decision-support)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/clinical-decision-support
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/clinical-decision-support
 ```
 
 ### Clinical Report Writing
@@ -12141,11 +12479,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Write comprehensive clinical reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with templates, reg
 - 标签：agent, clinical, drug, evaluation, RAG, reports, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/clinical-reports](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/clinical-reports)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/clinical-reports](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/clinical-reports)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/clinical-reports
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/clinical-reports
 ```
 
 ### COBRApy - Constraint-Based Reconstruction and Analysis
@@ -12153,11 +12491,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.
 - 标签：agent, cobrapy, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/cobrapy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/cobrapy)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/cobrapy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/cobrapy)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/cobrapy
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/cobrapy
 ```
 
 ### Consciousness Council
@@ -12165,35 +12503,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Run a multi-perspective Mind Council deliberation on any question, decision, or creative challenge. Use this skill whenever the user wants diverse viewpoints, needs help making a tough decision, asks for a council/panel/board discussion, wants to explore a pro
 - 标签：agent, consciousness, council, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/consciousness-council](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/consciousness-council)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/consciousness-council](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/consciousness-council)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/consciousness-council
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/consciousness-council
 ```
 
 ### Dask
 
 - 集合：`scientific-agent-skills`
 - 简介：Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core
-- 标签：agent, dask, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/dask](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/dask)
+- 标签：agent, dask, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/dask](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/dask)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/dask
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/dask
 ```
 
 ### Database Lookup
 
 - 集合：`scientific-agent-skills`
 - 简介：Search 78 public scientific, biomedical, materials science, and economic databases via REST APIs. Covers physics/astronomy (NASA, NIST, SDSS, SIMBAD), earth/environment (USGS, NOAA, EPA), chemistry/drugs (PubChem, ChEMBL, DrugBank, FDA, KEGG, ZINC, BindingDB),
-- 标签：agent, Agent, clinical, database, drug, genomics, lookup, protein, scientific, single-cell, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/database-lookup](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/database-lookup)
+- 标签：Agent, agent, clinical, database, drug, genomics, lookup, protein, scientific, single-cell, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/database-lookup](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/database-lookup)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/database-lookup
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/database-lookup
 ```
 
 ### Datamol Cheminformatics Skill
@@ -12201,11 +12539,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem
 - 标签：agent, alignment, datamol, drug, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/datamol](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/datamol)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/datamol](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/datamol)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/datamol
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/datamol
 ```
 
 ### DeepChem
@@ -12213,11 +12551,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models
 - 标签：agent, deepchem, drug, evaluation, fine-tuning, protein, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/deepchem](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/deepchem)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/deepchem](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/deepchem)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/deepchem
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/deepchem
 ```
 
 ### deepTools: NGS Data Analysis Toolkit
@@ -12225,11 +12563,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.
 - 标签：agent, alignment, deeptools, genomics, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/deeptools](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/deeptools)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/deeptools](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/deeptools)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/deeptools
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/deeptools
 ```
 
 ### DepMap — Cancer Dependency Map
@@ -12237,11 +12575,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Query the Cancer Dependency Map (DepMap) for cancer cell line gene dependency scores (CRISPR Chronos), drug sensitivity data, and gene effect profiles. Use for identifying cancer-specific vulnerabilities, synthetic lethal interactions, and validating oncology
 - 标签：agent, depmap, drug, protein, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/depmap](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/depmap)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/depmap](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/depmap)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/depmap
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/depmap
 ```
 
 ### DHDNA Profiler — Cognitive Pattern Extraction
@@ -12249,11 +12587,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, compare thinking styles between people, asks "what's my thinki
 - 标签：agent, clinical, dhdna, profiler, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/dhdna-profiler](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/dhdna-profiler)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/dhdna-profiler](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/dhdna-profiler)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/dhdna-profiler
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/dhdna-profiler
 ```
 
 ### DiffDock: Molecular Docking with Diffusion Models
@@ -12261,11 +12599,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.
 - 标签：agent, arXiv, diffdock, drug, fine-tuning, protein, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/diffdock](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/diffdock)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/diffdock](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/diffdock)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/diffdock
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/diffdock
 ```
 
 ### DNAnexus Integration
@@ -12273,11 +12611,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.
 - 标签：agent, alignment, bioinformatics, dnanexus, genomics, integration, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/dnanexus-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/dnanexus-integration)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/dnanexus-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/dnanexus-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/dnanexus-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/dnanexus-integration
 ```
 
 ### DOCX creation, editing, and analysis
@@ -12285,23 +12623,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of conten
 - 标签：agent, alignment, docx, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/docx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/docx)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/docx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/docx)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/docx
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/docx
 ```
 
 ### ESM: Evolutionary Scale Modeling
 
 - 集合：`scientific-agent-skills`
-- 简介：Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, s
+- 简介：Comprehensive toolkit for EvolutionaryScale protein language models including ESM3 (generative multimodal design across sequence, structure, and function) and ESM C (efficient embeddings). Use for protein sequence/structure/function tasks, inverse folding, emb
 - 标签：agent, drug, esm, protein, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/esm](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/esm)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/esm](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/esm)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/esm
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/esm
 ```
 
 ### ETE Toolkit Skill
@@ -12309,23 +12647,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.
 - 标签：agent, alignment, etetoolkit, genomics, LoRA, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/etetoolkit](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/etetoolkit)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/etetoolkit](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/etetoolkit)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/etetoolkit
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/etetoolkit
 ```
 
 ### Exa Web Toolkit
 
 - 集合：`scientific-agent-skills`
 - 简介：Web toolkit powered by Exa, tuned for scientific and technical content. Use this skill when the user needs to search the web or fetch/extract URL content. Covers: web search (semantic lookups, research, current info — with optional research-paper category and
-- 标签：agent, Agent, arXiv, exa, PubMed, scientific, search, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/exa-search](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/exa-search)
+- 标签：Agent, agent, arXiv, exa, PubMed, scientific, search, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/exa-search](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/exa-search)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/exa-search
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/exa-search
 ```
 
 ### Exploratory Data Analysis
@@ -12333,11 +12671,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file
 - 标签：agent, alignment, analysis, bioinformatics, data, exploratory, genomics, LoRA, protein, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/exploratory-data-analysis](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/exploratory-data-analysis)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/exploratory-data-analysis](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/exploratory-data-analysis)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/exploratory-data-analysis
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/exploratory-data-analysis
 ```
 
 ### FlowIO: Flow Cytometry Standard File Handler
@@ -12345,11 +12683,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.
 - 标签：agent, flowio, LoRA, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/flowio](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/flowio)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/flowio](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/flowio)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/flowio
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/flowio
 ```
 
 ### FluidSim
@@ -12357,23 +12695,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical
 - 标签：agent, fluidsim, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/fluidsim](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/fluidsim)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/fluidsim](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/fluidsim)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/fluidsim
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/fluidsim
 ```
 
 ### Generate Image
 
 - 集合：`scientific-agent-skills`
 - 简介：Generate or edit images using AI models (FLUX, Nano Banana 2). Use for general-purpose image generation including photos, illustrations, artwork, visual assets, concept art, and any image that is not a technical diagram or schematic. For flowcharts, circuits,
-- 标签：agent, Agent, generate, image, LaTeX, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/generate-image](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/generate-image)
+- 标签：Agent, agent, generate, image, LaTeX, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/generate-image](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/generate-image)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/generate-image
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/generate-image
 ```
 
 ### Geniml: Genomic Interval Machine Learning
@@ -12381,11 +12719,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based
 - 标签：agent, evaluation, geniml, RAG, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/geniml](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/geniml)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/geniml](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/geniml)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/geniml
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/geniml
 ```
 
 ### GeoMaster
@@ -12393,11 +12731,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for earth observation, and 30+ scientific domains. Supports satellite imagery processing (Sentinel, Landsat, MODIS, SAR, hyperspectral), vector and raster d
 - 标签：agent, geomaster, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/geomaster](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/geomaster)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/geomaster](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/geomaster)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/geomaster
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/geomaster
 ```
 
 ### GeoPandas
@@ -12405,11 +12743,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when working with geographic data for spatial analysis, geometric operations, coordinate transformations, spatial joins, overlay operations, choropl
 - 标签：agent, geopandas, LoRA, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/geopandas](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/geopandas)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/geopandas](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/geopandas)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/geopandas
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/geopandas
 ```
 
 ### Get Available Resources
@@ -12417,11 +12755,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that i
 - 标签：agent, available, genomics, get, RAG, resources, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/get-available-resources](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/get-available-resources)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/get-available-resources](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/get-available-resources)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/get-available-resources
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/get-available-resources
 ```
 
 ### gget
@@ -12429,23 +12767,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for mu
 - 标签：agent, alignment, bioinformatics, drug, genomics, gget, LoRA, protein, PubMed, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/gget](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/gget)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/gget](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/gget)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/gget
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/gget
 ```
 
 ### Ginkgo Cloud Lab
 
 - 集合：`scientific-agent-skills`
 - 简介：Submit and manage protocols on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio), a web-based interface for autonomous lab execution on Reconfigurable Automation Carts (RACs). Use when the user wants to run cell-free protein expression (validation or optimization),
-- 标签：agent, Agent, cloud, ginkgo, lab, protein, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/ginkgo-cloud-lab](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/ginkgo-cloud-lab)
+- 标签：Agent, agent, cloud, ginkgo, lab, protein, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/ginkgo-cloud-lab](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/ginkgo-cloud-lab)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/ginkgo-cloud-lab
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/ginkgo-cloud-lab
 ```
 
 ### Glycoengineering
@@ -12453,11 +12791,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Analyze and engineer protein glycosylation. Scan sequences for N-glycosylation sequons (N-X-S/T), predict O-glycosylation hotspots, and access curated glycoengineering tools (NetOGlyc, GlycoShield, GlycoWorkbench). For glycoprotein engineering, therapeutic ant
 - 标签：agent, drug, glycoengineering, protein, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/glycoengineering](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/glycoengineering)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/glycoengineering](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/glycoengineering)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/glycoengineering
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/glycoengineering
 ```
 
 ### Gtars: Genomic Tools and Algorithms in Rust
@@ -12465,47 +12803,47 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine le
 - 标签：agent, genomics, gtars, RAG, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/gtars](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/gtars)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/gtars](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/gtars)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/gtars
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/gtars
 ```
 
 ### Histolab
 
 - 集合：`scientific-agent-skills`
-- 简介：Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based analysis. For advanced spatial proteomics,
+- 简介：Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E images. Best for simple pipelines, dataset preparation, and quick tile-based analysis. For advanced spatial pr
 - 标签：agent, histolab, LoRA, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/histolab](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/histolab)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/histolab](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/histolab)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/histolab
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/histolab
 ```
 
 ### Hugging Science
 
 - 集合：`scientific-agent-skills`
-- 简介：Use when the user is doing AI/ML work in a scientific domain — biology, chemistry, physics, astronomy, climate, genomics, materials science, medicine, ecology, energy, conservation, engineering, mathematics, scientific reasoning, drug discovery, protein design
-- 标签：agent, Agent, alignment, clinical, drug, genomics, hugging, LLM, protein, RAG, science, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/hugging-science](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/hugging-science)
+- 简介：Use when the user is doing AI/ML work in a scientific domain such as biology, chemistry, physics, astronomy, climate, genomics, materials, medicine, ecology, energy, engineering, math, drug discovery, protein design, weather modeling, theorem proving, single-c
+- 标签：agent, alignment, clinical, drug, genomics, hugging, LLM, protein, RAG, science, scientific, single-cell, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/hugging-science](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/hugging-science)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/hugging-science
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/hugging-science
 ```
 
 ### Hypogenic
 
 - 集合：`scientific-agent-skills`
 - 简介：Automated LLM-driven hypothesis generation and testing on tabular datasets. Use when you want to systematically explore hypotheses about patterns in empirical data (e.g., deception detection, content analysis). Combines literature insights with data-driven hyp
-- 标签：agent, Agent, arXiv, evaluation, hypogenic, LLM, LoRA, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/hypogenic](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/hypogenic)
+- 标签：Agent, agent, arXiv, evaluation, hypogenic, LLM, LoRA, RAG, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/hypogenic](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/hypogenic)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/hypogenic
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/hypogenic
 ```
 
 ### Scientific Hypothesis Generation
@@ -12513,35 +12851,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test them. Follows scientific method framework. F
 - 标签：agent, clinical, evaluation, generation, hypothesis, LaTeX, LLM, PubMed, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/hypothesis-generation](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/hypothesis-generation)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/hypothesis-generation](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/hypothesis-generation)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/hypothesis-generation
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/hypothesis-generation
 ```
 
 ### Imaging Data Commons
 
 - 集合：`scientific-agent-skills`
 - 简介：Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and pathology datasets for AI training or research. No authentication required. Query by metadata, visualize in b
-- 标签：agent, Agent, clinical, commons, data, imaging, LaTeX, LoRA, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/imaging-data-commons](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/imaging-data-commons)
+- 标签：Agent, agent, clinical, commons, data, imaging, LaTeX, LoRA, RAG, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/imaging-data-commons](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/imaging-data-commons)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/imaging-data-commons
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/imaging-data-commons
 ```
 
 ### Infographics
 
 - 集合：`scientific-agent-skills`
 - 简介：Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe
-- 标签：agent, Agent, evaluation, infographics, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/infographics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/infographics)
+- 标签：Agent, agent, evaluation, infographics, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/infographics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/infographics)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/infographics
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/infographics
 ```
 
 ### ISO 13485 Certification Documentation Assistant
@@ -12549,11 +12887,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis of existing documentation, (2) creating Qu
 - 标签：13485, agent, certification, iso, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/iso-13485-certification](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/iso-13485-certification)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/iso-13485-certification](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/iso-13485-certification)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/iso-13485-certification
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/iso-13485-certification
 ```
 
 ### LabArchives Integration
@@ -12561,11 +12899,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.
 - 标签：agent, bioinformatics, clinical, integration, labarchive, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/labarchive-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/labarchive-integration)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/labarchive-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/labarchive-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/labarchive-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/labarchive-integration
 ```
 
 ### LaminDB
@@ -12573,11 +12911,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computationa
 - 标签：agent, alignment, clinical, drug, fine-tuning, genomics, lamindb, LoRA, protein, RAG, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/lamindb](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/lamindb)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/lamindb](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/lamindb)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/lamindb
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/lamindb
 ```
 
 ### LatchBio Integration
@@ -12585,23 +12923,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.
 - 标签：agent, alignment, bioinformatics, integration, latchbio, protein, RAG, scientific, single-cell, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/latchbio-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/latchbio-integration)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/latchbio-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/latchbio-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/latchbio-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/latchbio-integration
 ```
 
 ### LaTeX Research Posters
 
 - 集合：`scientific-agent-skills`
 - 简介：Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, an
-- 标签：agent, clinical, drug, LaTeX, latex, posters, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/latex-posters](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/latex-posters)
+- 标签：agent, clinical, drug, latex, LaTeX, posters, RAG, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/latex-posters](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/latex-posters)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/latex-posters
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/latex-posters
+```
+
+### LiteParse — Local Document Parsing
+
+- 集合：`scientific-agent-skills`
+- 简介：Local document and PDF parsing with spatial text and bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; OCR on scans; layout-preserved JSON for RAG; batch-ingesting paper folders; or page screenshots for multimodal agents — even
+- 标签：Agent, agent, liteparse, LLM, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/liteparse](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/liteparse)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/liteparse
 ```
 
 ### Literature Review
@@ -12609,23 +12959,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensiv
 - 标签：agent, arXiv, clinical, drug, genomics, LaTeX, literature, protein, PubMed, RAG, review, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/literature-review](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/literature-review)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/literature-review](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/literature-review)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/literature-review
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/literature-review
 ```
 
 ### Markdown and Mermaid Writing
 
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagr
-- 标签：agent, Agent, markdown, mermaid, RAG, scientific, skill.md, visualization, writing
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/markdown-mermaid-writing](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/markdown-mermaid-writing)
+- 标签：Agent, agent, markdown, mermaid, RAG, scientific, skill.md, visualization, writing
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/markdown-mermaid-writing](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/markdown-mermaid-writing)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/markdown-mermaid-writing
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/markdown-mermaid-writing
 ```
 
 ### Market Research Reports
@@ -12633,11 +12983,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with r
 - 标签：agent, LaTeX, market, RAG, reports, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/market-research-reports](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/market-research-reports)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/market-research-reports](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/market-research-reports)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/market-research-reports
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/market-research-reports
 ```
 
 ### MarkItDown - File to Markdown Conversion
@@ -12645,11 +12995,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.
 - 标签：agent, LLM, markitdown, MCP, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/markitdown](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/markitdown)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/markitdown](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/markitdown)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/markitdown
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/markitdown
 ```
 
 ### Matchms
@@ -12657,11 +13007,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral mat
 - 标签：agent, matchms, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/matchms](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/matchms)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/matchms](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/matchms)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/matchms
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/matchms
 ```
 
 ### MATLAB/Octave Scientific Computing
@@ -12669,11 +13019,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computing. Use when writing MATLAB/Octave scripts for linear algebra, signal processing, image processing, differential equations, optimization, stati
 - 标签：agent, matlab, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/matlab](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/matlab)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/matlab](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/matlab)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/matlab
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/matlab
 ```
 
 ### Matplotlib
@@ -12681,35 +13031,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots
 - 标签：agent, LoRA, matplotlib, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/matplotlib](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/matplotlib)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/matplotlib](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/matplotlib)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/matplotlib
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/matplotlib
 ```
 
 ### Medchem
 
 - 集合：`scientific-agent-skills`
-- 简介：Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.
-- 标签：agent, Agent, drug, medchem, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/medchem](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/medchem)
+- 简介：Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query language for library filtering.
+- 标签：agent, drug, medchem, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/medchem](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/medchem)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/medchem
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/medchem
 ```
 
 ### Modal
 
 - 集合：`scientific-agent-skills`
-- 简介：Cloud computing platform for running Python on GPUs and serverless infrastructure. Use when deploying AI/ML models, running GPU-accelerated workloads, serving web endpoints, scheduling batch jobs, or scaling Python code to the cloud. Use this skill whenever th
-- 标签：agent, fine-tuning, LLM, modal, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/modal](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/modal)
+- 简介：Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scal
+- 标签：Agent, agent, fine-tuning, LLM, modal, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/modal](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/modal)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/modal
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/modal
 ```
 
 ### Molecular Dynamics
@@ -12717,23 +13067,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structu
 - 标签：agent, drug, dynamics, molecular, protein, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/molecular-dynamics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/molecular-dynamics)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/molecular-dynamics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/molecular-dynamics)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/molecular-dynamics
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/molecular-dynamics
 ```
 
 ### Molfeat - Molecular Featurization Hub
 
 - 集合：`scientific-agent-skills`
 - 简介：Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.
-- 标签：agent, molfeat, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/molfeat](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/molfeat)
+- 标签：agent, evaluation, molfeat, RAG, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/molfeat](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/molfeat)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/molfeat
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/molfeat
 ```
 
 ### NetworkX
@@ -12741,11 +13091,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, cluster
 - 标签：agent, networkx, protein, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/networkx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/networkx)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/networkx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/networkx)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/networkx
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/networkx
 ```
 
 ### NeuroKit2
@@ -12753,23 +13103,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle ac
 - 标签：agent, clinical, neurokit2, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/neurokit2](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/neurokit2)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/neurokit2](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/neurokit2)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/neurokit2
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/neurokit2
 ```
 
 ### Neuropixels Data Analysis
 
 - 集合：`scientific-agent-skills`
 - 简介：Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when wor
-- 标签：agent, Agent, analysis, neuropixels, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/neuropixels-analysis](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/neuropixels-analysis)
+- 标签：Agent, agent, analysis, neuropixels, RAG, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/neuropixels-analysis](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/neuropixels-analysis)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/neuropixels-analysis
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/neuropixels-analysis
+```
+
+### Nextflow
+
+- 集合：`scientific-agent-skills`
+- 简介：Build, run, and debug Nextflow data pipelines and nf-core workflows end to end. Use whenever the user mentions Nextflow, nf-core, .nf files, nextflow.config, DSL2, processes/channels/operators, samplesheets, or wants to run a community pipeline (e.g. nf-core/r
+- 标签：agent, alignment, bioinformatics, nextflow, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/nextflow](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/nextflow)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/nextflow
 ```
 
 ### OMERO Integration
@@ -12777,11 +13139,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.
 - 标签：agent, integration, LoRA, omero, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/omero-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/omero-integration)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/omero-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/omero-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/omero-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/omero-integration
 ```
 
 ### Open Notebook
@@ -12789,23 +13151,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Self-hosted, open-source alternative to Google NotebookLM for AI-powered research and document analysis. Use when organizing research materials into notebooks, ingesting diverse content sources (PDFs, videos, audio, web pages, Office documents), generating AI-
 - 标签：agent, arXiv, genomics, LLM, notebook, open, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/open-notebook](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/open-notebook)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/open-notebook](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/open-notebook)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/open-notebook
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/open-notebook
 ```
 
 ### Opentrons Integration
 
 - 集合：`scientific-agent-skills`
 - 简介：Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automat
-- 标签：agent, Agent, integration, opentrons, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/opentrons-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/opentrons-integration)
+- 标签：Agent, agent, integration, opentrons, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/opentrons-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/opentrons-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/opentrons-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/opentrons-integration
 ```
 
 ### GPU Optimization for Python with NVIDIA
@@ -12813,23 +13175,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：GPU-accelerate Python code using CuPy, Numba CUDA, Warp, cuDF, cuML, cuGraph, KvikIO, cuCIM, cuxfilter, cuVS, cuSpatial, and RAFT. Use whenever the user mentions GPU/CUDA/NVIDIA acceleration, or wants to speed up NumPy, pandas, scikit-learn, scikit-image, Netw
 - 标签：agent, bioinformatics, for, gpu, LoRA, optimize, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/optimize-for-gpu](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/optimize-for-gpu)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/optimize-for-gpu](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/optimize-for-gpu)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/optimize-for-gpu
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/optimize-for-gpu
 ```
 
 ### pacsomatic
 
 - 集合：`scientific-agent-skills`
 - 简介：Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM inputs. Use this skill when the user needs to validate run inputs, generate pacsomatic-compliant samplesheets, prepare reproducible Nextflow launch artifacts, run locally or submit
-- 标签：agent, Agent, pacsomatic, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pacsomatic](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pacsomatic)
+- 标签：Agent, agent, pacsomatic, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pacsomatic](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pacsomatic)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pacsomatic
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pacsomatic
 ```
 
 ### Paper Lookup
@@ -12837,23 +13199,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Search 10 academic paper databases via REST APIs for research papers, preprints, and scholarly articles. Covers PubMed, PMC (full text), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, D
 - 标签：agent, arXiv, lookup, paper, PubMed, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/paper-lookup](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/paper-lookup)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/paper-lookup](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/paper-lookup)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/paper-lookup
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/paper-lookup
 ```
 
 ### Paperzilla
 
 - 集合：`scientific-agent-skills`
 - 简介：Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.
-- 标签：agent, Agent, paperzilla, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/paperzilla](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/paperzilla)
+- 标签：Agent, agent, paperzilla, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/paperzilla](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/paperzilla)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/paperzilla
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/paperzilla
 ```
 
 ### Parallel Web Toolkit
@@ -12861,11 +13223,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：All-in-one web toolkit powered by parallel-cli, with a strong emphasis on academic and scientific sources. Use this skill whenever the user needs to search the web, fetch/extract URL content, enrich data with web-sourced fields, or run deep research reports. C
 - 标签：agent, arXiv, parallel, scientific, skill.md, web
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/parallel-web](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/parallel-web)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/parallel-web](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/parallel-web)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/parallel-web
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/parallel-web
 ```
 
 ### PathML
@@ -12873,11 +13235,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology data. Supports 160+ slide formats. For si
 - 标签：agent, evaluation, pathml, RAG, scientific, single-cell, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pathml](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pathml)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pathml](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pathml)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pathml
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pathml
+```
+
+### Pathway Enrichment
+
+- 集合：`scientific-agent-skills`
+- 简介：Run pathway and gene-set enrichment analysis on gene lists or ranked gene data, then interpret the results. Use whenever the user has a set of genes (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster marker genes, proteomics hits
+- 标签：agent, enrichment, LLM, pathway, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pathway-enrichment](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pathway-enrichment)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pathway-enrichment
 ```
 
 ### PDF Processing Guide
@@ -12885,23 +13259,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PD
 - 标签：agent, pdf, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pdf](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pdf)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pdf](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pdf)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pdf
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pdf
 ```
 
 ### Scientific Critical Evaluation and Peer Review
 
 - 集合：`scientific-agent-skills`
 - 简介：Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for a
-- 标签：agent, Agent, alignment, bioinformatics, evaluation, LoRA, peer, RAG, review, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/peer-review](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/peer-review)
+- 标签：Agent, agent, alignment, bioinformatics, evaluation, LoRA, peer, RAG, review, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/peer-review](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/peer-review)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/peer-review
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/peer-review
 ```
 
 ### PennyLane
@@ -12909,11 +13283,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQ
 - 标签：agent, pennylane, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pennylane](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pennylane)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pennylane](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pennylane)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pennylane
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pennylane
 ```
 
 ### Phylogenetics
@@ -12921,11 +13295,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Build and analyze phylogenetic trees using MAFFT (multiple alignment), IQ-TREE 2 (maximum likelihood), and FastTree (fast NJ/ML). Visualize with ETE3 or FigTree. For evolutionary analysis, microbial genomics, viral phylodynamics, protein family analysis, and m
 - 标签：agent, alignment, genomics, phylogenetics, protein, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/phylogenetics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/phylogenetics)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/phylogenetics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/phylogenetics)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/phylogenetics
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/phylogenetics
 ```
 
 ### Polars
@@ -12933,11 +13307,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger
 - 标签：agent, evaluation, polars, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/polars](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/polars)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/polars](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/polars)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/polars
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/polars
 ```
 
 ### polars-bio
@@ -12945,23 +13319,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.
 - 标签：agent, alignment, bio, bioinformatics, evaluation, polars, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/polars-bio](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/polars-bio)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/polars-bio](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/polars-bio)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/polars-bio
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/polars-bio
 ```
 
 ### PPTX Skill
 
 - 集合：`scientific-agent-skills`
 - 简介：Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used el
-- 标签：agent, Agent, LLM, pptx, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pptx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pptx)
+- 标签：Agent, agent, LLM, pptx, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pptx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pptx)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pptx
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pptx
 ```
 
 ### PPTX Research Posters (HTML-Based)
@@ -12969,11 +13343,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY when the user explicitly requests PowerPoint/PPTX poster format. For standard research posters, use latex-posters instead. This skill provides modern web-based post
 - 标签：agent, clinical, drug, LaTeX, posters, pptx, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pptx-posters](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pptx-posters)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pptx-posters](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pptx-posters)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pptx-posters
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pptx-posters
 ```
 
 ### PrimeKG Knowledge Graph Skill
@@ -12981,35 +13355,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Query the Precision Medicine Knowledge Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases, phenotypes, and more.
 - 标签：agent, clinical, drug, primekg, protein, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/primekg](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/primekg)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/primekg](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/primekg)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/primekg
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/primekg
 ```
 
 ### Protocols.io Integration
 
 - 集合：`scientific-agent-skills`
 - 简介：Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize worksp
-- 标签：agent, Agent, integration, protocolsio, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/protocolsio-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/protocolsio-integration)
+- 标签：Agent, agent, integration, protocolsio, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/protocolsio-integration](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/protocolsio-integration)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/protocolsio-integration
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/protocolsio-integration
 ```
 
 ### PufferLib - High-Performance Reinforcement Learning
 
 - 集合：`scientific-agent-skills`
 - 简介：High-performance reinforcement learning framework optimized for speed and scale. Use when you need fast parallel training, vectorized environments, multi-agent systems, or integration with game environments (Atari, Procgen, NetHack). Achieves 2-10x speedups ov
-- 标签：agent, Agent, protein, pufferlib, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pufferlib](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pufferlib)
+- 标签：Agent, agent, protein, pufferlib, RAG, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pufferlib](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pufferlib)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pufferlib
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pufferlib
 ```
 
 ### PyDESeq2
@@ -13017,11 +13391,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.
 - 标签：agent, bioinformatics, pydeseq2, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pydeseq2](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pydeseq2)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pydeseq2](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pydeseq2)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pydeseq2
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pydeseq2
 ```
 
 ### Pydicom
@@ -13029,11 +13403,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anony
 - 标签：agent, pydicom, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pydicom](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pydicom)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pydicom](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pydicom)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pydicom
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pydicom
 ```
 
 ### PyHealth
@@ -13041,11 +13415,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Build clinical/healthcare deep-learning pipelines with PyHealth — loading EHR/signal/imaging datasets (MIMIC-III/IV, eICU, OMOP, SleepEDF, ChestXray14, EHRShot), defining tasks (mortality, readmission, length-of-stay, drug recommendation, sleep staging, ICD co
 - 标签：agent, clinical, drug, pyhealth, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pyhealth](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pyhealth)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pyhealth](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pyhealth)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pyhealth
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pyhealth
 ```
 
 ### PyLabRobot
@@ -13053,11 +13427,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons, plate readers, pumps) or needing unified programming across different vendors. Best for complex workflows, multi-vendor setups, simulation. For
 - 标签：agent, pylabrobot, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pylabrobot](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pylabrobot)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pylabrobot](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pylabrobot)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pylabrobot
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pylabrobot
 ```
 
 ### Pymatgen - Python Materials Genomics
@@ -13065,11 +13439,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.
 - 标签：agent, genomics, pymatgen, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pymatgen](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pymatgen)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pymatgen](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pymatgen)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pymatgen
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pymatgen
 ```
 
 ### PyMC Bayesian Modeling
@@ -13077,23 +13451,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.
 - 标签：agent, LoRA, pymc, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pymc](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pymc)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pymc](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pymc)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pymc
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pymc
 ```
 
 ### Pymoo - Multi-Objective Optimization in Python
 
 - 集合：`scientific-agent-skills`
 - 简介：Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.
-- 标签：agent, evaluation, pymoo, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pymoo](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pymoo)
+- 标签：agent, evaluation, LLM, pymoo, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pymoo](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pymoo)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pymoo
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pymoo
 ```
 
 ### PyOpenMS
@@ -13101,11 +13475,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. Best for proteomics, comprehensive MS
 - 标签：agent, protein, pyopenms, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pyopenms](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pyopenms)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pyopenms](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pyopenms)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pyopenms
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pyopenms
 ```
 
 ### Pysam
@@ -13113,11 +13487,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines.
 - 标签：agent, alignment, bioinformatics, pysam, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pysam](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pysam)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pysam](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pysam)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pysam
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pysam
 ```
 
 ### PyTDC (Therapeutics Data Commons)
@@ -13125,35 +13499,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction.
 - 标签：agent, clinical, drug, evaluation, protein, pytdc, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pytdc](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pytdc)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pytdc](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pytdc)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pytdc
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pytdc
 ```
 
 ### PyTorch Lightning
 
 - 集合：`scientific-agent-skills`
-- 简介：Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural ne
+- 简介：Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard, MLflow), distributed training (DDP, FSDP, DeepSp
 - 标签：agent, lightning, pytorch, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pytorch-lightning](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pytorch-lightning)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pytorch-lightning](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pytorch-lightning)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pytorch-lightning
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pytorch-lightning
 ```
 
 ### Pyzotero
 
 - 集合：`scientific-agent-skills`
 - 简介：Interact with Zotero reference management libraries using the pyzotero Python client. Retrieve, create, update, and delete items, collections, tags, and attachments via the Zotero Web API v3. Use this skill when working with Zotero libraries programmatically,
-- 标签：agent, pyzotero, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/pyzotero](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/pyzotero)
+- 标签：agent, LLM, MCP, pyzotero, scientific, skill.md
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/pyzotero](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/pyzotero)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/pyzotero
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/pyzotero
 ```
 
 ### Qiskit
@@ -13161,11 +13535,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：IBM quantum computing framework. Use when targeting IBM Quantum hardware, working with Qiskit Runtime for production workloads, or needing IBM optimization tools. Best for IBM hardware execution, quantum error mitigation, and enterprise quantum computing. For
 - 标签：agent, LaTeX, qiskit, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/qiskit](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/qiskit)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/qiskit](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/qiskit)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/qiskit
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/qiskit
 ```
 
 ### QuTiP: Quantum Toolbox in Python
@@ -13173,11 +13547,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Quantum physics simulation library for open quantum systems. Use when studying master equations, Lindblad dynamics, decoherence, quantum optics, or cavity QED. Best for physics research, open system dynamics, and educational simulations. NOT for circuit-based
 - 标签：agent, qutip, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/qutip](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/qutip)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/qutip](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/qutip)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/qutip
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/qutip
 ```
 
 ### RDKit Cheminformatics Toolkit
@@ -13185,23 +13559,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around
 - 标签：agent, drug, RAG, rdkit, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/rdkit](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/rdkit)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/rdkit](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/rdkit)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/rdkit
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/rdkit
 ```
 
 ### Research Grant Writing
 
 - 集合：`scientific-agent-skills`
 - 简介：Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements.
-- 标签：agent, Agent, alignment, clinical, evaluation, grants, LoRA, RAG, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/research-grants](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/research-grants)
+- 标签：Agent, agent, alignment, clinical, evaluation, grants, LoRA, RAG, scientific, skill.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/research-grants](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/research-grants)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/research-grants
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/research-grants
 ```
 
 ### Research Information Lookup
@@ -13209,11 +13583,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Look up current research information using parallel-cli search (primary, fast web search), the Parallel Chat API (deep research), or Perplexity sonar-pro-search (academic paper searches). Automatically routes queries to the best backend. Use for finding papers
 - 标签：agent, arXiv, clinical, lookup, protein, PubMed, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/research-lookup](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/research-lookup)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/research-lookup](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/research-lookup)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/research-lookup
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/research-lookup
 ```
 
 ### Rowan: Cloud-Native Molecular-Modeling and Drug-Design Workflows
@@ -13221,11 +13595,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow platform with a Python API. Use for pKa and macropKa prediction, conformer and tautomer ensembles, docking and analogue docking, protein-ligand cofolding, MSA generation, molecular dyn
 - 标签：agent, alignment, drug, LoRA, protein, RAG, rowan, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/rowan](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/rowan)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/rowan](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/rowan)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/rowan
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/rowan
 ```
 
 ### Scanpy: Single-Cell Analysis
@@ -13233,11 +13607,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning
 - 标签：agent, genomics, LoRA, scanpy, scientific, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scanpy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scanpy)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scanpy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scanpy)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scanpy
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scanpy
 ```
 
 ### Scholar Evaluation
@@ -13245,11 +13619,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions including problem formulation, methodology, analysis, and writing with quantitative scoring and actionable feedback.
 - 标签：agent, alignment, arXiv, drug, evaluation, RAG, scholar, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scholar-evaluation](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scholar-evaluation)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scholar-evaluation](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scholar-evaluation)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scholar-evaluation
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scholar-evaluation
+```
+
+### Scientific Skills
+
+- 集合：`scientific-agent-skills`
+- 简介：- **Database Lookup** - Search 78 public scientific, biomedical, materials science, and economic databases via their REST APIs and return structured JSON results. Covers physics/astronomy (NASA, NIST, SDSS, SIMBAD, Exoplanet Archive), earth/environment (USGS,
+- 标签：agent, Agent, alignment, arXiv, bioinformatics, clinical, docs, drug, evaluation, fine-tuning, genomics, LaTeX, LLM, LoRA, MCP, protein, PubMed, RAG, scientific, single-cell, skills.md, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/docs](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/docs)
+- 下载命令：
+
+```bash
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/docs
 ```
 
 ### Scientific Brainstorming
@@ -13257,23 +13643,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Creative research ideation and exploration. Use for open-ended brainstorming sessions, exploring interdisciplinary connections, challenging assumptions, or identifying research gaps. Best for early-stage research planning when you do not have specific observat
 - 标签：agent, brainstorming, evaluation, LoRA, RAG, scientific, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-brainstorming](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-brainstorming)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scientific-brainstorming](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scientific-brainstorming)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-brainstorming
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scientific-brainstorming
 ```
 
 ### Scientific Critical Thinking
 
 - 集合：`scientific-agent-skills`
 - 简介：Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evid
-- 标签：agent, clinical, critical, evaluation, LoRA, scientific, skill.md, thinking, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-critical-thinking](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-critical-thinking)
+- 标签：agent, clinical, critical, evaluation, LoRA, scientific, skill.md, thinking
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scientific-critical-thinking](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scientific-critical-thinking)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-critical-thinking
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scientific-critical-thinking
 ```
 
 ### Scientific Schematics and Diagrams
@@ -13281,11 +13667,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Create publication-quality scientific diagrams using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.1 Pro Preview for quality review. Only regenerates if quality is below threshold for your document type. Specialized in neural network architec
 - 标签：agent, alignment, arXiv, LaTeX, protein, schematics, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-schematics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-schematics)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scientific-schematics](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scientific-schematics)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-schematics
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scientific-schematics
 ```
 
 ### Scientific Slides
@@ -13293,11 +13679,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing gu
 - 标签：agent, alignment, clinical, LaTeX, RAG, scientific, skill.md, slides, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-slides](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-slides)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scientific-slides](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scientific-slides)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-slides
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scientific-slides
 ```
 
 ### Scientific Visualization
@@ -13305,23 +13691,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Meta-skill for publication-ready figures. Use when creating journal submission figures requiring multi-panel layouts, significance annotations, error bars, colorblind-safe palettes, and specific journal formatting (Nature, Science, Cell). Orchestrates matplotl
 - 标签：agent, genomics, LoRA, scientific, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-visualization](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-visualization)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scientific-visualization](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scientific-visualization)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-visualization
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scientific-visualization
 ```
 
 ### Scientific Writing
 
 - 集合：`scientific-agent-skills`
 - 简介：Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD structure,
-- 标签：agent, Agent, clinical, drug, evaluation, LaTeX, protein, RAG, scientific, skill.md, visualization, writing
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-writing](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-writing)
+- 标签：Agent, agent, clinical, drug, evaluation, LaTeX, protein, RAG, scientific, skill.md, visualization, writing
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scientific-writing](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scientific-writing)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scientific-writing
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scientific-writing
 ```
 
 ### scikit-bio
@@ -13329,11 +13715,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.
 - 标签：agent, alignment, bio, bioinformatics, genomics, protein, RAG, scientific, scikit, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-bio](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-bio)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scikit-bio](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scikit-bio)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-bio
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scikit-bio
 ```
 
 ### Scikit-learn
@@ -13341,11 +13727,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines
 - 标签：agent, evaluation, learn, LoRA, scientific, scikit, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-learn](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-learn)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scikit-learn](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scikit-learn)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-learn
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scikit-learn
 ```
 
 ### scikit-survival: Survival Analysis in Python
@@ -13353,11 +13739,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting m
 - 标签：agent, clinical, evaluation, scientific, scikit, skill.md, survival
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-survival](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-survival)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scikit-survival](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scikit-survival)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scikit-survival
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scikit-survival
 ```
 
 ### scVelo — RNA Velocity Analysis
@@ -13365,11 +13751,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：RNA velocity analysis with scVelo. Estimate cell state transitions from unspliced/spliced mRNA dynamics, infer trajectory directions, compute latent time, and identify driver genes in single-cell RNA-seq data. Complements Scanpy/scVI-tools for trajectory infer
 - 标签：agent, LoRA, RAG, scientific, scvelo, single-cell, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scvelo](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scvelo)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scvelo](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scvelo)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scvelo
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scvelo
 ```
 
 ### scvi-tools
@@ -13377,11 +13763,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multim
 - 标签：agent, genomics, protein, RAG, scientific, scvi, single-cell, skill.md, tools
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/scvi-tools](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/scvi-tools)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/scvi-tools](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/scvi-tools)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/scvi-tools
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/scvi-tools
 ```
 
 ### Seaborn Statistical Visualization
@@ -13389,11 +13775,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plo
 - 标签：agent, fine-tuning, LoRA, RAG, scientific, seaborn, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/seaborn](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/seaborn)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/seaborn](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/seaborn)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/seaborn
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/seaborn
 ```
 
 ### SHAP (SHapley Additive exPlanations)
@@ -13401,11 +13787,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), de
 - 标签：agent, RAG, scientific, shap, skill.md, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/shap](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/shap)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/shap](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/shap)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/shap
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/shap
 ```
 
 ### SimPy - Discrete-Event Simulation
@@ -13413,23 +13799,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any syst
 - 标签：agent, RAG, scientific, simpy, skill.md
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/simpy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/simpy)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/simpy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/simpy)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/simpy
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/simpy
 ```
 
 ### Stable Baselines3
 
 - 集合：`scientific-agent-skills`
 - 简介：Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environmen
-- 标签：agent, Agent, baselines3, evaluation, scientific, skill.md, stable, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/stable-baselines3](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/stable-baselines3)
+- 标签：Agent, agent, baselines3, evaluation, scientific, skill.md, stable, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/stable-baselines3](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/stable-baselines3)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/stable-baselines3
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/stable-baselines3
 ```
 
 ### Statistical Analysis
@@ -13437,11 +13823,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Guided statistical analysis with test selection and reporting. Use when you need help choosing appropriate tests for your data, assumption checking, power analysis, and APA-formatted results. Best for academic research reporting, test selection guidance. For i
 - 标签：agent, analysis, LoRA, scientific, skill.md, statistical, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/statistical-analysis](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/statistical-analysis)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/statistical-analysis](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/statistical-analysis)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/statistical-analysis
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/statistical-analysis
 ```
 
 ### Statsmodels: Statistical Modeling and Econometrics
@@ -13449,23 +13835,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided stat
 - 标签：agent, evaluation, RAG, scientific, skill.md, statsmodels
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/statsmodels](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/statsmodels)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/statsmodels](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/statsmodels)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/statsmodels
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/statsmodels
 ```
 
 ### SymPy - Symbolic Mathematics in Python
 
 - 集合：`scientific-agent-skills`
-- 简介：Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic express
+- 简介：Use when you need exact symbolic math in Python — algebra, calculus, equation solving, symbolic linear algebra, or code generation via lambdify/LaTeX. Prefer NumPy or SciPy when floating-point approximations are sufficient.
 - 标签：agent, evaluation, LaTeX, scientific, skill.md, sympy
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/sympy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/sympy)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/sympy](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/sympy)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/sympy
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/sympy
 ```
 
 ### TileDB-VCF
@@ -13473,35 +13859,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental sample addition, compressed storage, parallel queries, and export capabilities for population genomics.
 - 标签：agent, evaluation, genomics, RAG, scientific, skill.md, tiledbvcf
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/tiledbvcf](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/tiledbvcf)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/tiledbvcf](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/tiledbvcf)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/tiledbvcf
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/tiledbvcf
 ```
 
 ### TimesFM Forecasting
 
 - 集合：`scientific-agent-skills`
 - 简介：Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (sales, sensors, energy, vitals, weather) without training a custom model. Supports CSV/DataFrame/array inputs with point forecasts and prediction inte
-- 标签：agent, Agent, arXiv, evaluation, forecasting, LoRA, RAG, scientific, skill.md, timesfm, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/timesfm-forecasting](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/timesfm-forecasting)
+- 标签：Agent, agent, arXiv, evaluation, forecasting, LoRA, RAG, scientific, skill.md, timesfm, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/timesfm-forecasting](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/timesfm-forecasting)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/timesfm-forecasting
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/timesfm-forecasting
 ```
 
 ### PyTorch Geometric (PyG)
 
 - 集合：`scientific-agent-skills`
-- 简介：Guide for building Graph Neural Networks with PyTorch Geometric (PyG). Use this skill whenever the user asks about graph neural networks, GNNs, node classification, link prediction, graph classification, message passing networks, heterogeneous graphs, neighbor
+- 简介：PyTorch Geometric (PyG) for graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analyt
 - 标签：agent, alignment, arXiv, evaluation, geometric, protein, PubMed, scientific, skill.md, torch
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/torch-geometric](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/torch-geometric)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/torch-geometric](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/torch-geometric)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/torch-geometric
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/torch-geometric
 ```
 
 ### TorchDrug
@@ -13509,35 +13895,35 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：PyTorch-native graph neural networks for molecules and proteins. Use when building custom GNN architectures for drug discovery, protein modeling, or knowledge graph reasoning. Best for custom model development, protein property prediction, retrosynthesis. For
 - 标签：agent, drug, evaluation, LoRA, protein, RAG, scientific, skill.md, torchdrug
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/torchdrug](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/torchdrug)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/torchdrug](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/torchdrug)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/torchdrug
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/torchdrug
 ```
 
 ### Transformers
 
 - 集合：`scientific-agent-skills`
-- 简介：This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classificati
+- 简介：Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Use when working with AutoModel, pipelines, tokenizers, or TrainingArguments—not for general ML
 - 标签：agent, fine-tuning, LLM, RAG, scientific, skill.md, transformers
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/transformers](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/transformers)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/transformers](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/transformers)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/transformers
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/transformers
 ```
 
 ### Treatment Plan Writing
 
 - 集合：`scientific-agent-skills`
 - 简介：Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Supports general medical treatment, rehabilitation therapy, mental health care, chronic disease management, perioperative care, and pain management.
-- 标签：agent, Agent, clinical, drug, evaluation, LaTeX, plans, scientific, skill.md, treatment, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/treatment-plans](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/treatment-plans)
+- 标签：Agent, agent, clinical, drug, evaluation, LaTeX, plans, scientific, skill.md, treatment, visualization
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/treatment-plans](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/treatment-plans)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/treatment-plans
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/treatment-plans
 ```
 
 ### UMAP-Learn
@@ -13545,23 +13931,23 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.
 - 标签：agent, learn, RAG, scientific, skill.md, umap, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/umap-learn](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/umap-learn)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/umap-learn](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/umap-learn)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/umap-learn
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/umap-learn
 ```
 
 ### U.S. Treasury Fiscal Data API
 
 - 集合：`scientific-agent-skills`
-- 简介：Query the U.S. Treasury Fiscal Data API for federal financial data including national debt, government spending, revenue, interest rates, exchange rates, and savings bonds. Access 54 datasets and 182 data tables with no API key required. Use when working with
+- 简介：Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rate
 - 标签：agent, RAG, scientific, skill.md, usfiscaldata
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/usfiscaldata](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/usfiscaldata)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/usfiscaldata](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/usfiscaldata)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/usfiscaldata
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/usfiscaldata
 ```
 
 ### Vaex
@@ -13569,11 +13955,11 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on l
 - 标签：agent, evaluation, LoRA, RAG, scientific, skill.md, vaex, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/vaex](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/vaex)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/vaex](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/vaex)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/vaex
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/vaex
 ```
 
 ### Venue Templates
@@ -13581,45 +13967,45 @@ svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-re
 - 集合：`scientific-agent-skills`
 - 简介：Access comprehensive LaTeX templates, formatting requirements, and submission guidelines for major scientific publication venues (Nature, Science, PLOS, IEEE, ACM), academic conferences (NeurIPS, ICML, CVPR, CHI), research posters, and grant proposals (NSF, NI
 - 标签：agent, bioinformatics, evaluation, LaTeX, LoRA, protein, RAG, scientific, skill.md, templates, venue, visualization
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/venue-templates](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/venue-templates)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/venue-templates](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/venue-templates)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/venue-templates
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/venue-templates
 ```
 
 ### What-If Oracle — Possibility Space Explorer
 
 - 集合：`scientific-agent-skills`
-- 简介：Run structured What-If scenario analysis with multi-branch possibility exploration. Use this skill when the user asks speculative questions like "what if...", "what would happen if...", "what are the possibilities", "explore scenarios", "scenario analysis", "p
+- 简介：Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or
 - 标签：agent, LoRA, oracle, scientific, skill.md, what
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/what-if-oracle](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/what-if-oracle)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/what-if-oracle](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/what-if-oracle)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/what-if-oracle
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/what-if-oracle
 ```
 
 ### Requirements for Outputs
 
 - 集合：`scientific-agent-skills`
-- 简介：Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, clean
+- 简介：Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the workbook file is the primary deliverable. Use for formulas, formatting, financial models, multi-sheet workbooks, and tabular cleanup exported to Excel. Also applies to .csv/.tsv when
 - 标签：agent, alignment, RAG, scientific, skill.md, visualization, xlsx
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/xlsx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/xlsx)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/xlsx](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/xlsx)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/xlsx
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/xlsx
 ```
 
 ### Zarr Python
 
 - 集合：`scientific-agent-skills`
-- 简介：Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.
+- 简介：Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.
 - 标签：agent, alignment, python, RAG, scientific, skill.md, zarr
-- GitHub：[skills/scientific-research/scientific-agent-skills/scientific-skills/zarr-python](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/scientific-skills/zarr-python)
+- GitHub：[skills/scientific-research/scientific-agent-skills/skills/zarr-python](https://github.com/guohui11/research-tools/tree/main/skills/scientific-research/scientific-agent-skills/skills/zarr-python)
 - 下载命令：
 
 ```bash
-svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/scientific-skills/zarr-python
+svn export https://github.com/guohui11/research-tools/trunk/skills/scientific-research/scientific-agent-skills/skills/zarr-python
 ```

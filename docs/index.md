@@ -1,6 +1,6 @@
 # Research Skills Index
 
-更新时间：2026-05-27
+更新时间：2026-05-30
 
 这些内容由 `scripts/sync_research_skills.py` 生成，来源于 Awesome Auto Research 中的 Research Skills & Plugin Collections。
 
@@ -11,7 +11,7 @@
 - 上游：[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 - 本地内容：`skills/scientific-research/scientific-agent-skills`
 - 使用文档：`docs/skills/scientific-research/scientific-agent-skills/README.md`
-- 自动发现 skill 数量：139
+- 自动发现 skill 数量：144
 - 简介：面向科学计算和实验研究的通用技能集合，覆盖生物信息学、药物发现、临床研究、医学影像和材料科学等方向。
 - 适合：需要把科研任务拆成可复用工具流程的研究生，尤其适合交叉学科和 AI for Science 项目。
 
@@ -36,4 +36,15 @@
 - 自动发现 skill 数量：897
 - 简介：面向医学 AI 和生物医学研究的技能集合，覆盖临床报告、基因组学、药物发现、生物信息学、结构生物学和医学数据库。
 - 适合：医学、生信、药物发现、临床 NLP、组学分析方向的研究生。
+
+## 学术论文写作 Skills
+
+### PaperSpine
+
+- 上游：[WUBING2023/PaperSpine](https://github.com/WUBING2023/PaperSpine)
+- 本地内容：`skills/academic-writing/paper-spine`
+- 使用文档：`docs/skills/academic-writing/paper-spine/README.md`
+- 自动发现 skill 数量：37
+- 简介：面向论文阅读、结构化整理、写作推进和学术表达优化的 skill 集合，适合把论文工作流拆成可复用的 agent 步骤。
+- 适合：需要进行论文精读、文献整理、选题梳理、论文草稿写作和修改润色的研究生。
 

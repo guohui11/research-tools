@@ -34,3 +34,12 @@ sources:
     description: 面向医学 AI 和生物医学研究的技能集合，覆盖临床报告、基因组学、药物发现、生物信息学、结构生物学和医学数据库。
     recommended_for: 医学、生信、药物发现、临床 NLP、组学分析方向的研究生。
     usage_focus: 先确认数据合规和任务边界，再按疾病、数据类型或实验阶段选择技能。
+  - slug: paper-spine
+    title: PaperSpine
+    category_slug: academic-writing
+    category_title: 学术论文写作 Skills
+    repo_url: https://github.com/WUBING2023/PaperSpine.git
+    upstream: WUBING2023/PaperSpine
+    description: 面向论文阅读、结构化整理、写作推进和学术表达优化的 skill 集合，适合把论文工作流拆成可复用的 agent 步骤。
+    recommended_for: 需要进行论文精读、文献整理、选题梳理、论文草稿写作和修改润色的研究生。
+    usage_focus: 先明确论文主题、目标期刊或会议、已有材料和输出格式，再让 agent 按阅读、提纲、写作、审稿式修改等阶段调用对应 skill。
